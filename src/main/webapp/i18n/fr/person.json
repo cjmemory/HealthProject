@@ -1,0 +1,19 @@
+{
+    "myhealthApp": {
+        "person" : {
+            "home": {
+                "title": "Persons",
+                "createLabel": "Créer un nouveau Person",
+                "createOrEditLabel": "Créer ou éditer un Person"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Person {{ id }} ?"
+            },
+            "detail": {
+                "title": "Person"
+            },
+            "name": "Name"
+        }
+    }
+}
+

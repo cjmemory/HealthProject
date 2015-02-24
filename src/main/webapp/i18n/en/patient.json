@@ -1,0 +1,19 @@
+{
+    "myhealthApp": {
+        "patient" : {
+            "home": {
+                "title": "Patients",
+                "createLabel": "Create a new Patient",
+                "createOrEditLabel": "Create or edit a Patient"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Patient {{ id }}?"
+            },
+            "detail": {
+                "title": "Patient"
+            },
+            "firstName": "FirstName",
+            "lastName": "LastName"
+        }
+    }
+}

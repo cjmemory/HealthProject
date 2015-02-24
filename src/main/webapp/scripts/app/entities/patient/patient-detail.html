@@ -1,0 +1,71 @@
+
+<div>
+    <h2><span translate="myhealthApp.patient.detail.title">Patient</span> {{patient.id}}</h2>
+    <div>
+        <div>
+            <label>Folder Name</label>
+            <input type="text" class="form-control" ng-model="newFolderName">
+
+        </div>
+        <br/>
+        <div>
+            <button class="btn btn-info" ng-click="createFolder(newFolderName)"> Create Folder</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="myhealthApp.patient.firstName">FirstName</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{patient.firstName}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="myhealthApp.patient.lastName">LastName</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{patient.lastName}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--<div flow-init>-->
+        <!--<input type="file" flow-btn />-->
+        <!--<input type="file" flow-btn flow-directory />-->
+        <!--Input OR Other element as upload button-->
+        <!--<span flow-btn>Upload File</span>-->
+    <!--</div>-->
+
+
+    <br/>
+    <br/>
+
+
+
+
+    <button type="submit"
+            ui-sref="patient"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

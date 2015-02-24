@@ -1,0 +1,3235 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json myhealth@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-build-control',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'grunt-cli',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-connect-proxy',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-modernizr',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'grunt-rev',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-text-replace',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-angular-templates',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'grunt-karma',
+6 verbose install     'time-grunt',
+6 verbose install     'grunt-contrib-compass',
+6 verbose install     'event-stream',
+6 verbose install     'jshint-stylish',
+6 verbose install     'karma-script-launcher',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-html2js-preprocessor',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-requirejs',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'karma',
+6 verbose install     'bower',
+6 verbose install     'generator-jhipster',
+6 verbose install     'lodash',
+6 verbose install     'zeparser' ] ]
+7 info preinstall myhealth@0.0.0
+8 warn package.json karma-chrome-launcher@0.1.4 No README data
+9 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt-concurrent@0.5.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+12 verbose already installed skipping grunt-connect-proxy@0.1.10 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+13 verbose already installed skipping grunt-contrib-clean@0.5.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+14 verbose already installed skipping grunt-contrib-concat@0.4.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+15 verbose already installed skipping grunt-contrib-connect@0.8.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+16 verbose already installed skipping grunt-contrib-cssmin@0.9.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+17 verbose already installed skipping grunt-contrib-htmlmin@0.3.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+18 verbose already installed skipping grunt-contrib-imagemin@0.7.1 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+19 verbose already installed skipping grunt-contrib-jshint@0.10.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+20 verbose already installed skipping grunt-contrib-uglify@0.4.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+21 verbose already installed skipping grunt-contrib-watch@0.6.1 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+22 verbose already installed skipping grunt-modernizr@0.5.2 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+23 verbose already installed skipping grunt-ng-annotate@0.3.2 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+24 verbose already installed skipping grunt-rev@0.1.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+25 verbose already installed skipping grunt-svgmin@0.4.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+26 verbose already installed skipping grunt-text-replace@0.3.12 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+27 verbose already installed skipping grunt-usemin@2.2.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+28 verbose already installed skipping grunt-angular-templates@0.5.7 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+29 verbose already installed skipping load-grunt-tasks@0.5.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+30 verbose already installed skipping grunt-karma@0.8.3 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+31 verbose already installed skipping time-grunt@0.3.2 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+32 verbose already installed skipping grunt-contrib-compass@0.7.2 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+33 verbose already installed skipping event-stream@3.1.5 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+34 verbose already installed skipping jshint-stylish@^1.0.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+35 verbose already installed skipping karma-script-launcher@0.1.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+36 verbose already installed skipping karma-chrome-launcher@0.1.4 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+37 verbose already installed skipping karma-html2js-preprocessor@0.1.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+38 verbose already installed skipping karma-jasmine@0.2.2 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+39 verbose already installed skipping karma-requirejs@0.2.2 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+40 verbose already installed skipping karma-phantomjs-launcher@0.1.4 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+41 verbose already installed skipping karma@0.12.16 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+42 verbose cache add [ 'bower@1.3.12', null ]
+43 verbose cache add name=undefined spec="bower@1.3.12" args=["bower@1.3.12",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'bower@1.3.12',
+44 verbose parsed url   path: 'bower@1.3.12',
+44 verbose parsed url   href: 'bower@1.3.12' }
+45 verbose cache add [ 'generator-jhipster@2.0.0', null ]
+46 verbose cache add name=undefined spec="generator-jhipster@2.0.0" args=["generator-jhipster@2.0.0",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'generator-jhipster@2.0.0',
+47 verbose parsed url   path: 'generator-jhipster@2.0.0',
+47 verbose parsed url   href: 'generator-jhipster@2.0.0' }
+48 verbose already installed skipping lodash@2.4.1 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+49 verbose cache add name="bower" spec="1.3.12" args=["bower","1.3.12"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '1.3.12',
+50 verbose parsed url   path: '1.3.12',
+50 verbose parsed url   href: '1.3.12' }
+51 verbose addNamed [ 'bower', '1.3.12' ]
+52 verbose addNamed [ '1.3.12', '1.3.12' ]
+53 verbose cache add name="generator-jhipster" spec="2.0.0" args=["generator-jhipster","2.0.0"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '2.0.0',
+54 verbose parsed url   path: '2.0.0',
+54 verbose parsed url   href: '2.0.0' }
+55 verbose addNamed [ 'generator-jhipster', '2.0.0' ]
+56 verbose addNamed [ '2.0.0', '2.0.0' ]
+57 verbose already installed skipping zeparser@0.0.7 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+58 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+59 verbose lock bower@1.3.12 /Users/JIECHEN/.npm/9819431c-bower-1-3-12.lock
+60 silly lockFile 6c80deeb-generator-jhipster-2-0-0 generator-jhipster@2.0.0
+61 verbose lock generator-jhipster@2.0.0 /Users/JIECHEN/.npm/6c80deeb-generator-jhipster-2-0-0.lock
+62 verbose url raw bower
+63 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+64 verbose url resolved https://registry.npmjs.org/bower
+65 info trying registry request attempt 1 at 20:51:26
+66 verbose etag "C12JMC9G79TWNC34CQEASETHJ"
+67 http GET https://registry.npmjs.org/bower
+68 verbose already installed skipping grunt-build-control@0.1.3 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+69 verbose already installed skipping grunt@0.4.5 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+70 verbose already installed skipping grunt-autoprefixer@0.7.5 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+71 verbose already installed skipping grunt-wiredep@1.8.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+72 verbose already installed skipping grunt-cli@0.1.13 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+73 verbose already installed skipping grunt-contrib-copy@0.5.0 /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+74 verbose url raw generator-jhipster
+75 verbose url resolving [ 'https://registry.npmjs.org/', './generator-jhipster' ]
+76 verbose url resolved https://registry.npmjs.org/generator-jhipster
+77 info trying registry request attempt 1 at 20:51:26
+78 verbose etag "1NCNWNIENKUQ124TJYF4XFKZJ"
+79 http GET https://registry.npmjs.org/generator-jhipster
+80 http 304 https://registry.npmjs.org/bower
+81 silly registry.get cb [ 304,
+81 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:27 GMT',
+81 silly registry.get     server: 'Apache',
+81 silly registry.get     via: '1.1 varnish',
+81 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:27 GMT',
+81 silly registry.get     'cache-control': 'max-age=60',
+81 silly registry.get     etag: '"C12JMC9G79TWNC34CQEASETHJ"',
+81 silly registry.get     age: '0',
+81 silly registry.get     'x-served-by': 'cache-ord1735-ORD',
+81 silly registry.get     'x-cache': 'HIT',
+81 silly registry.get     'x-cache-hits': '1',
+81 silly registry.get     'x-timer': 'S1422240687.070687,VS0,VE263',
+81 silly registry.get     vary: 'Accept',
+81 silly registry.get     'content-length': '0',
+81 silly registry.get     'keep-alive': 'timeout=10, max=50',
+81 silly registry.get     connection: 'Keep-Alive' } ]
+82 verbose etag bower from cache
+83 http 304 https://registry.npmjs.org/generator-jhipster
+84 silly registry.get cb [ 304,
+84 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:27 GMT',
+84 silly registry.get     server: 'Apache',
+84 silly registry.get     via: '1.1 varnish',
+84 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:27 GMT',
+84 silly registry.get     'cache-control': 'max-age=60',
+84 silly registry.get     etag: '"1NCNWNIENKUQ124TJYF4XFKZJ"',
+84 silly registry.get     age: '0',
+84 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+84 silly registry.get     'x-cache': 'MISS',
+84 silly registry.get     'x-cache-hits': '0',
+84 silly registry.get     'x-timer': 'S1422240687.071972,VS0,VE273',
+84 silly registry.get     vary: 'Accept',
+84 silly registry.get     'content-length': '0',
+84 silly registry.get     'keep-alive': 'timeout=10, max=50',
+84 silly registry.get     connection: 'Keep-Alive' } ]
+85 verbose etag generator-jhipster from cache
+86 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+87 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+88 silly lockFile 6c80deeb-generator-jhipster-2-0-0 generator-jhipster@2.0.0
+89 silly lockFile 6c80deeb-generator-jhipster-2-0-0 generator-jhipster@2.0.0
+90 silly resolved [ { name: 'generator-jhipster',
+90 silly resolved     version: '2.0.0',
+90 silly resolved     description: 'Java + Spring + JPA + AngularJS complete dev stack',
+90 silly resolved     keywords:
+90 silly resolved      [ 'yeoman-generator',
+90 silly resolved        'Java',
+90 silly resolved        'Spring',
+90 silly resolved        'Spring Security',
+90 silly resolved        'JPA',
+90 silly resolved        'Hibernate',
+90 silly resolved        'AngularJS',
+90 silly resolved        'Twitter Bootstrap' ],
+90 silly resolved     homepage: 'http://jhipster.github.io/',
+90 silly resolved     bugs: { url: 'https://github.com/jhipster/generator-jhipster/issues' },
+90 silly resolved     author: { name: 'Julien Dubois', url: 'https://github.com/jdubois' },
+90 silly resolved     main: 'app/index.js',
+90 silly resolved     repository:
+90 silly resolved      { type: 'git',
+90 silly resolved        url: 'git://github.com/jhipster/generator-jhipster.git' },
+90 silly resolved     scripts: { test: 'mocha --reporter spec' },
+90 silly resolved     dependencies:
+90 silly resolved      { 'yeoman-generator': '0.17.7',
+90 silly resolved        cheerio: '0.17.0',
+90 silly resolved        'underscore.string': '2.3.3',
+90 silly resolved        shelljs: '0.3.0',
+90 silly resolved        chalk: '0.5.1',
+90 silly resolved        grunt: '0.4.5',
+90 silly resolved        insight: '0.4.3' },
+90 silly resolved     devDependencies: { grunt: '0.4.5', mocha: '1.21.5' },
+90 silly resolved     peerDependencies: { yo: '>=1.3.0' },
+90 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.4.0' },
+90 silly resolved     licenses: [ [Object] ],
+90 silly resolved     gitHead: '4610e9170aa9dd9e9260ddf755268e8d7d32ca8e',
+90 silly resolved     _id: 'generator-jhipster@2.0.0',
+90 silly resolved     _shasum: '58f8bf6012384b20c54b759af25900584c641a6a',
+90 silly resolved     _from: 'generator-jhipster@2.0.0',
+90 silly resolved     _npmVersion: '2.1.18',
+90 silly resolved     _nodeVersion: '0.10.35',
+90 silly resolved     _npmUser: { name: 'jdubois', email: 'julien.dubois@gmail.com' },
+90 silly resolved     maintainers: [ [Object] ],
+90 silly resolved     dist:
+90 silly resolved      { shasum: '58f8bf6012384b20c54b759af25900584c641a6a',
+90 silly resolved        tarball: 'http://registry.npmjs.org/generator-jhipster/-/generator-jhipster-2.0.0.tgz' },
+90 silly resolved     directories: {},
+90 silly resolved     _resolved: 'https://registry.npmjs.org/generator-jhipster/-/generator-jhipster-2.0.0.tgz',
+90 silly resolved     readme: 'ERROR: No README data found!' },
+90 silly resolved   { name: 'bower',
+90 silly resolved     version: '1.3.12',
+90 silly resolved     description: 'The browser package manager',
+90 silly resolved     author: { name: 'Twitter' },
+90 silly resolved     licenses: [ [Object] ],
+90 silly resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+90 silly resolved     main: 'lib',
+90 silly resolved     homepage: 'http://bower.io',
+90 silly resolved     engines: { node: '>=0.10.0' },
+90 silly resolved     dependencies:
+90 silly resolved      { abbrev: '~1.0.4',
+90 silly resolved        archy: '0.0.2',
+90 silly resolved        'bower-config': '~0.5.2',
+90 silly resolved        'bower-endpoint-parser': '~0.2.2',
+90 silly resolved        'bower-json': '~0.4.0',
+90 silly resolved        'bower-logger': '~0.2.2',
+90 silly resolved        'bower-registry-client': '~0.2.0',
+90 silly resolved        cardinal: '0.4.0',
+90 silly resolved        chalk: '0.5.0',
+90 silly resolved        chmodr: '0.1.0',
+90 silly resolved        'decompress-zip': '0.0.8',
+90 silly resolved        fstream: '~1.0.2',
+90 silly resolved        'fstream-ignore': '~1.0.1',
+90 silly resolved        glob: '~4.0.2',
+90 silly resolved        'graceful-fs': '~3.0.1',
+90 silly resolved        handlebars: '~2.0.0',
+90 silly resolved        inquirer: '0.7.1',
+90 silly resolved        insight: '0.4.3',
+90 silly resolved        'is-root': '~1.0.0',
+90 silly resolved        junk: '~1.0.0',
+90 silly resolved        lockfile: '~1.0.0',
+90 silly resolved        'lru-cache': '~2.5.0',
+90 silly resolved        mkdirp: '0.5.0',
+90 silly resolved        mout: '~0.9.0',
+90 silly resolved        nopt: '~3.0.0',
+90 silly resolved        opn: '~1.0.0',
+90 silly resolved        osenv: '0.1.0',
+90 silly resolved        'p-throttler': '0.1.0',
+90 silly resolved        promptly: '0.2.0',
+90 silly resolved        q: '~1.0.1',
+90 silly resolved        request: '~2.42.0',
+90 silly resolved        'request-progress': '0.3.0',
+90 silly resolved        retry: '0.6.0',
+90 silly resolved        rimraf: '~2.2.0',
+90 silly resolved        semver: '~2.3.0',
+90 silly resolved        'shell-quote': '~1.4.1',
+90 silly resolved        'stringify-object': '~1.0.0',
+90 silly resolved        'tar-fs': '0.5.2',
+90 silly resolved        tmp: '0.0.23',
+90 silly resolved        'update-notifier': '0.2.0',
+90 silly resolved        which: '~1.0.5' },
+90 silly resolved     devDependencies:
+90 silly resolved      { coveralls: '~2.11.0',
+90 silly resolved        'expect.js': '~0.3.1',
+90 silly resolved        grunt: '~0.4.4',
+90 silly resolved        'grunt-cli': '^0.1.13',
+90 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+90 silly resolved        'grunt-contrib-watch': '~0.6.1',
+90 silly resolved        'grunt-exec': '~0.4.2',
+90 silly resolved        'grunt-simple-mocha': '~0.4.0',
+90 silly resolved        istanbul: '~0.3.2',
+90 silly resolved        'load-grunt-tasks': '~0.6.0',
+90 silly resolved        mocha: '~1.21.4',
+90 silly resolved        nock: '~0.46.0',
+90 silly resolved        'node-uuid': '~1.4.1',
+90 silly resolved        proxyquire: '~1.0.1' },
+90 silly resolved     scripts: { test: 'grunt test' },
+90 silly resolved     bin: { bower: 'bin/bower' },
+90 silly resolved     preferGlobal: true,
+90 silly resolved     gitHead: 'b26c072f0db054a1902ec4d2e3726dbf8a1c799a',
+90 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+90 silly resolved     _id: 'bower@1.3.12',
+90 silly resolved     _shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+90 silly resolved     _from: 'bower@1.3.12',
+90 silly resolved     _npmVersion: '2.0.0',
+90 silly resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+90 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+90 silly resolved     dist:
+90 silly resolved      { shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+90 silly resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.3.12.tgz' },
+90 silly resolved     directories: {},
+90 silly resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.3.12.tgz',
+90 silly resolved     readme: 'ERROR: No README data found!' } ]
+91 info install generator-jhipster@2.0.0 into /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+92 info install bower@1.3.12 into /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+93 info installOne generator-jhipster@2.0.0
+94 info installOne bower@1.3.12
+95 info /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower unbuild
+96 info /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/generator-jhipster unbuild
+97 verbose tar unpack /Users/JIECHEN/.npm/bower/1.3.12/package.tgz
+98 silly lockFile bc1a5550-alth-myhealth-node-modules-bower tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower
+99 verbose lock tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower /Users/JIECHEN/.npm/bc1a5550-alth-myhealth-node-modules-bower.lock
+100 silly lockFile 1fe235a5-HEN-npm-bower-1-3-12-package-tgz tar:///Users/JIECHEN/.npm/bower/1.3.12/package.tgz
+101 verbose lock tar:///Users/JIECHEN/.npm/bower/1.3.12/package.tgz /Users/JIECHEN/.npm/1fe235a5-HEN-npm-bower-1-3-12-package-tgz.lock
+102 silly gunzTarPerm modes [ '755', '644' ]
+103 silly gunzTarPerm extractEntry package.json
+104 silly gunzTarPerm extractEntry .npmignore
+105 silly gunzTarPerm extractEntry README.md
+106 silly gunzTarPerm extractEntry LICENSE
+107 silly gunzTarPerm extractEntry Gruntfile.js
+108 silly gunzTarPerm extractEntry HOOKS.md
+109 silly gunzTarPerm extractEntry CHANGELOG.md
+110 silly gunzTarPerm extractEntry CONTRIBUTING.md
+111 verbose tar unpack /Users/JIECHEN/.npm/generator-jhipster/2.0.0/package.tgz
+112 silly lockFile da58c5c7--node-modules-generator-jhipster tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/generator-jhipster
+113 verbose lock tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/generator-jhipster /Users/JIECHEN/.npm/da58c5c7--node-modules-generator-jhipster.lock
+114 silly lockFile 5d01fa3d-rator-jhipster-2-0-0-package-tgz tar:///Users/JIECHEN/.npm/generator-jhipster/2.0.0/package.tgz
+115 verbose lock tar:///Users/JIECHEN/.npm/generator-jhipster/2.0.0/package.tgz /Users/JIECHEN/.npm/5d01fa3d-rator-jhipster-2-0-0-package-tgz.lock
+116 silly gunzTarPerm modes [ '755', '644' ]
+117 silly gunzTarPerm extractEntry .editorconfig
+118 silly gunzTarPerm extractEntry .jshintrc
+119 silly gunzTarPerm extractEntry package.json
+120 silly gunzTarPerm extractEntry .npmignore
+121 silly gunzTarPerm extractEntry README.md
+122 silly gunzTarPerm extractEntry bin/bower
+123 silly gunzTarPerm extractEntry lib/config.js
+124 silly gunzTarPerm extractEntry LICENSE
+125 silly gunzTarPerm extractEntry util.js
+126 silly gunzTarPerm extractEntry lib/index.js
+127 silly gunzTarPerm extractEntry lib/commands/version.js
+128 silly gunzTarPerm extractEntry script-base.js
+129 silly gunzTarPerm extractEntry CONTRIBUTING.md
+130 silly gunzTarPerm extractEntry .gitattributes
+131 silly gunzTarPerm extractEntry app/index.js
+132 silly gunzTarPerm extractEntry app/gitignore
+133 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+134 silly gunzTarPerm extractEntry app/templates/gulpfile.js
+135 silly gunzTarPerm extractEntry app/templates/_bower.json
+136 silly gunzTarPerm extractEntry lib/commands/info.js
+137 silly gunzTarPerm extractEntry lib/commands/init.js
+138 silly gunzTarPerm extractEntry app/templates/_build.gradle
+139 silly gunzTarPerm extractEntry app/templates/_gradle.properties
+140 silly gunzTarPerm extractEntry lib/commands/install.js
+141 silly gunzTarPerm extractEntry lib/commands/index.js
+142 silly gunzTarPerm extractEntry app/templates/_liquibase.gradle
+143 silly gunzTarPerm extractEntry app/templates/_package.json
+144 silly gunzTarPerm extractEntry app/templates/_pom.xml
+145 silly gunzTarPerm extractEntry app/templates/_profile_dev.gradle
+146 silly gunzTarPerm extractEntry lib/commands/list.js
+147 silly gunzTarPerm extractEntry lib/commands/lookup.js
+148 silly gunzTarPerm extractEntry lib/commands/prune.js
+149 silly gunzTarPerm extractEntry lib/commands/register.js
+150 silly gunzTarPerm extractEntry lib/commands/search.js
+151 silly gunzTarPerm extractEntry lib/commands/home.js
+152 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+153 silly gunzTarPerm extractEntry lib/commands/help.js
+154 silly gunzTarPerm extractEntry lib/commands/update.js
+155 silly gunzTarPerm extractEntry lib/commands/completion.js
+156 silly gunzTarPerm extractEntry lib/commands/link.js
+157 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+158 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+159 silly gunzTarPerm extractEntry lib/core/Manager.js
+160 silly gunzTarPerm extractEntry app/templates/_profile_fast.gradle
+161 silly gunzTarPerm extractEntry app/templates/_profile_prod.gradle
+162 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+163 silly gunzTarPerm extractEntry lib/core/Project.js
+164 silly gunzTarPerm extractEntry app/templates/_settings.gradle
+165 silly gunzTarPerm extractEntry app/templates/_README.md
+166 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+167 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+168 silly gunzTarPerm extractEntry lib/core/scripts.js
+169 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+170 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+171 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+172 silly gunzTarPerm extractEntry app/templates/bowerrc
+173 silly gunzTarPerm extractEntry app/templates/editorconfig
+174 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+175 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+176 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+177 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+178 silly gunzTarPerm extractEntry app/templates/gitattributes
+179 silly gunzTarPerm extractEntry app/templates/gitignore
+180 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+181 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+182 silly gunzTarPerm extractEntry app/templates/gradle/wrapper/gradle-wrapper.jar
+183 silly gunzTarPerm extractEntry app/templates/gradle/wrapper/gradle-wrapper.properties
+184 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+185 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+186 silly gunzTarPerm extractEntry lib/renderers/index.js
+187 silly gunzTarPerm extractEntry lib/util/analytics.js
+188 silly gunzTarPerm extractEntry app/templates/gradlew
+189 silly gunzTarPerm extractEntry app/templates/gradlew.bat
+190 silly gunzTarPerm extractEntry lib/util/createError.js
+191 silly gunzTarPerm extractEntry app/templates/travis.yml
+192 silly gunzTarPerm extractEntry app/templates/jshintrc
+193 silly gunzTarPerm extractEntry lib/util/createLink.js
+194 silly gunzTarPerm extractEntry lib/util/download.js
+195 silly gunzTarPerm extractEntry app/templates/src/main/java/package/_Application.java
+196 silly gunzTarPerm extractEntry app/templates/src/main/java/package/_ApplicationWebXml.java
+197 silly gunzTarPerm extractEntry lib/util/copy.js
+198 silly gunzTarPerm extractEntry lib/util/md5.js
+199 silly gunzTarPerm extractEntry app/templates/src/main/java/package/aop/logging/_LoggingAspect.java
+200 silly gunzTarPerm extractEntry app/templates/src/main/java/package/async/_ExceptionHandlingAsyncTaskExecutor.java
+201 silly gunzTarPerm extractEntry lib/util/readJson.js
+202 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+203 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+204 silly gunzTarPerm extractEntry lib/util/semver.js
+205 silly gunzTarPerm extractEntry lib/util/cmd.js
+206 silly gunzTarPerm extractEntry lib/util/template.js
+207 silly gunzTarPerm extractEntry lib/util/cli.js
+208 silly gunzTarPerm extractEntry lib/util/validLink.js
+209 silly gunzTarPerm extractEntry app/templates/src/main/java/package/async/_package-info.java
+210 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_OAuth2ServerConfiguration.java
+211 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_AsyncConfiguration.java
+212 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_CloudDatabaseConfiguration.java
+213 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_CloudMongoDbConfiguration.java
+214 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_Constants.java
+215 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_DatabaseConfiguration.java
+216 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_JacksonConfiguration.java
+217 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_LocaleConfiguration.java
+218 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_LoggingAspectConfiguration.java
+219 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_MailConfiguration.java
+220 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_MetricsConfiguration.java
+221 silly gunzTarPerm extractEntry lib/util/extract.js
+222 silly gunzTarPerm extractEntry templates/helpers/colors.js
+223 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_CacheConfiguration.java
+224 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_SecurityConfiguration.java
+225 silly gunzTarPerm extractEntry templates/helpers/condense.js
+226 silly gunzTarPerm extractEntry templates/helpers/indent.js
+227 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_ThymeleafConfiguration.java
+228 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_WebConfigurer.java
+229 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_WebsocketConfiguration.java
+230 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/_package-info.java
+231 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/apidoc/_SwaggerConfiguration.java
+232 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/apidoc/_package-info.java
+233 silly gunzTarPerm extractEntry templates/helpers/index.js
+234 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+235 silly gunzTarPerm extractEntry templates/helpers/sum.js
+236 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+237 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+238 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+239 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/audit/_AuditEventConverter.java
+240 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/audit/_package-info.java
+241 silly gunzTarPerm extractEntry templates/json/help-home.json
+242 silly gunzTarPerm extractEntry templates/json/help-info.json
+243 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/hazelcast/_HazelcastCacheRegionFactory.java
+244 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/hazelcast/_package-info.java
+245 silly gunzTarPerm extractEntry templates/json/help-init.json
+246 silly gunzTarPerm extractEntry templates/json/help-install.json
+247 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/locale/_AngularCookieLocaleResolver.java
+248 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/locale/_package-info.java
+249 silly gunzTarPerm extractEntry templates/json/help-link.json
+250 silly gunzTarPerm extractEntry templates/json/help-list.json
+251 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/metrics/_DatabaseHealthIndicator.java
+252 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/metrics/_JHipsterHealthIndicatorConfiguration.java
+253 silly gunzTarPerm extractEntry templates/json/help-cache.json
+254 silly gunzTarPerm extractEntry templates/json/help-prune.json
+255 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/metrics/_JavaMailHealthIndicator.java
+256 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/metrics/_package-info.java
+257 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/oauth2/_MongoDBTokenStore.java
+258 silly gunzTarPerm extractEntry app/templates/src/main/java/package/config/oauth2/_OAuth2AuthenticationReadConverter.java
+259 silly gunzTarPerm extractEntry templates/json/help-register.json
+260 silly gunzTarPerm extractEntry templates/json/help-search.json
+261 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_AbstractAuditingEntity.java
+262 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_Authority.java
+263 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+264 silly gunzTarPerm extractEntry templates/json/help-update.json
+265 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_OAuth2AuthenticationAccessToken.java
+266 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_OAuth2AuthenticationRefreshToken.java
+267 silly gunzTarPerm extractEntry templates/json/help-version.json
+268 silly gunzTarPerm extractEntry templates/json/help.json
+269 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_PersistentAuditEvent.java
+270 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_PersistentToken.java
+271 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_User.java
+272 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/_package-info.java
+273 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+274 silly gunzTarPerm extractEntry templates/std/conflict.std
+275 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/util/_CustomDateTimeDeserializer.java
+276 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/util/_CustomDateTimeSerializer.java
+277 silly gunzTarPerm extractEntry templates/std/help-cache.std
+278 silly gunzTarPerm extractEntry templates/std/help-generic.std
+279 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/util/_CustomLocalDateSerializer.java
+280 silly gunzTarPerm extractEntry app/templates/src/main/java/package/domain/util/_ISO8601LocalDateDeserializer.java
+281 silly gunzTarPerm extractEntry templates/std/help.std
+282 silly gunzTarPerm extractEntry templates/std/info.std
+283 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_AuthorityRepository.java
+284 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_CustomAuditEventRepository.java
+285 silly gunzTarPerm extractEntry templates/std/lookup.std
+286 silly gunzTarPerm extractEntry templates/std/register.std
+287 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_OAuth2AccessTokenRepository.java
+288 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_OAuth2RefreshTokenRepository.java
+289 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_PersistenceAuditEventRepository.java
+290 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_PersistentTokenRepository.java
+291 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_UserRepository.java
+292 silly gunzTarPerm extractEntry app/templates/src/main/java/package/repository/_package-info.java
+293 silly gunzTarPerm extractEntry templates/std/search-results.std
+294 silly gunzTarPerm extractEntry .travis.yml
+295 silly gunzTarPerm extractEntry test/helpers.js
+296 silly gunzTarPerm extractEntry test/packages-svn.js
+297 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_Http401UnauthorizedEntryPoint.java
+298 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_AjaxAuthenticationFailureHandler.java
+299 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_AjaxLogoutSuccessHandler.java
+300 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_AuthoritiesConstants.java
+301 silly gunzTarPerm extractEntry test/packages.js
+302 silly gunzTarPerm extractEntry test/test.js
+303 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_CustomPersistentRememberMeServices.java
+304 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_AjaxAuthenticationSuccessHandler.java
+305 silly gunzTarPerm extractEntry test/packages-svn.json
+306 silly gunzTarPerm extractEntry test/commands/index.js
+307 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_SecurityUtils.java
+308 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_SpringSecurityAuditorAware.java
+309 silly gunzTarPerm extractEntry test/commands/init.js
+310 silly gunzTarPerm extractEntry test/commands/install.js
+311 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_UserDetailsService.java
+312 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_UserNotActivatedException.java
+313 silly gunzTarPerm extractEntry test/commands/uninstall.js
+314 silly gunzTarPerm extractEntry test/commands/update.js
+315 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+316 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+317 silly gunzTarPerm extractEntry app/templates/src/main/java/package/security/_package-info.java
+318 silly gunzTarPerm extractEntry app/templates/src/main/java/package/service/_AuditEventService.java
+319 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+320 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+321 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+322 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+323 silly gunzTarPerm extractEntry app/templates/src/main/java/package/service/_MailService.java
+324 silly gunzTarPerm extractEntry app/templates/src/main/java/package/service/_UserService.java
+325 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+326 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+327 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+328 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+329 silly gunzTarPerm extractEntry app/templates/src/main/java/package/service/_package-info.java
+330 silly gunzTarPerm extractEntry app/templates/src/main/java/package/service/util/_RandomUtil.java
+331 silly gunzTarPerm extractEntry test/packages.json
+332 silly gunzTarPerm extractEntry test/core/Manager.js
+333 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/_CachingHttpHeadersFilter.java
+334 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/_CsrfCookieGeneratorFilter.java
+335 silly gunzTarPerm extractEntry test/core/packageRepository.js
+336 silly gunzTarPerm extractEntry test/core/resolveCache.js
+337 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+338 silly gunzTarPerm extractEntry test/core/scripts.js
+339 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/_StaticResourcesProductionFilter.java
+340 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/_package-info.java
+341 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+342 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+343 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/gzip/_GZipResponseUtil.java
+344 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/gzip/_GZipServletFilter.java
+345 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/gzip/_GZipServletOutputStream.java
+346 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/gzip/_GZipServletResponseWrapper.java
+347 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+348 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+349 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/gzip/_GzipResponseHeadersNotModifiableException.java
+350 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/filter/gzip/_package-info.java
+351 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+352 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+353 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/propertyeditors/_LocaleDateTimeEditor.java
+354 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/propertyeditors/_package-info.java
+355 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+356 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+357 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/_AccountResource.java
+358 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/_AuditResource.java
+359 silly gunzTarPerm extractEntry test/util/analytics.js
+360 silly gunzTarPerm extractEntry test/util/index.js
+361 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/_LogsResource.java
+362 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/_UserResource.java
+363 silly gunzTarPerm extractEntry test/util/removeIgnores.js
+364 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/_package-info.java
+365 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/dto/_LoggerDTO.java
+366 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/dto/_UserDTO.java
+367 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/rest/dto/_package-info.java
+368 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/websocket/_ActivityService.java
+369 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/websocket/_package-info.java
+370 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/websocket/dto/_ActivityDTO.java
+371 silly gunzTarPerm extractEntry app/templates/src/main/java/package/web/websocket/dto/_package-info.java
+372 silly gunzTarPerm extractEntry app/templates/src/main/resources/_ehcache.xml
+373 silly gunzTarPerm extractEntry app/templates/src/main/resources/_logback.xml
+374 silly gunzTarPerm extractEntry app/templates/src/main/resources/banner.txt
+375 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/_application-dev.yml
+376 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/_application-prod.yml
+377 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/_application.yml
+378 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/liquibase/authorities.csv
+379 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/liquibase/changelog/_initial_schema.xml
+380 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/liquibase/master.xml
+381 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/liquibase/users.csv
+382 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/liquibase/users_authorities.csv
+383 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/mongeez/authorities.xml
+384 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/mongeez/master.xml
+385 silly gunzTarPerm extractEntry app/templates/src/main/resources/config/mongeez/users.xml
+386 silly gunzTarPerm extractEntry app/templates/src/main/resources/h2.server.properties
+387 silly gunzTarPerm extractEntry app/templates/src/main/resources/i18n/_messages_en.properties
+388 silly gunzTarPerm extractEntry app/templates/src/main/resources/i18n/_messages_fr.properties
+389 silly gunzTarPerm extractEntry app/templates/src/main/resources/mails/activationEmail.html
+390 silly gunzTarPerm extractEntry app/templates/src/main/resources/templates/error.html
+391 silly gunzTarPerm extractEntry app/templates/src/main/scss/main.scss
+392 silly gunzTarPerm extractEntry app/templates/src/main/webapp/_index.html
+393 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot
+394 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg
+395 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf
+396 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff
+397 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/images/development_ribbon.png
+398 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/images/glyphicons-halflings-white.png
+399 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/images/glyphicons-halflings.png
+400 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/images/hipster.png
+401 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/images/hipster2x.png
+402 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/styles/bootstrap.css
+403 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/styles/documentation.css
+404 silly gunzTarPerm extractEntry app/templates/src/main/webapp/assets/styles/main.css
+405 silly gunzTarPerm extractEntry app/templates/src/main/webapp/favicon.ico
+406 silly gunzTarPerm extractEntry app/templates/src/main/webapp/htaccess.txt
+407 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/logs.json
+408 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/_global.json
+409 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/audits.json
+410 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/configuration.json
+411 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/error.json
+412 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/health.json
+413 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/language.json
+414 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/login.json
+415 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/activate.json
+416 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/main.json
+417 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/metrics.json
+418 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/password.json
+419 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/register.json
+420 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/sessions.json
+421 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/settings.json
+422 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/en/tracker.json
+423 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/logs.json
+424 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/_global.json
+425 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/audits.json
+426 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/configuration.json
+427 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/error.json
+428 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/health.json
+429 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/language.json
+430 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/login.json
+431 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/activate.json
+432 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/main.json
+433 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/metrics.json
+434 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/password.json
+435 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/register.json
+436 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/sessions.json
+437 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/settings.json
+438 silly gunzTarPerm extractEntry app/templates/src/main/webapp/i18n/fr/tracker.json
+439 silly gunzTarPerm extractEntry app/templates/src/main/webapp/robots.txt
+440 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/_app.js
+441 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/_account.js
+442 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/activate/_activate.controller.js
+443 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/activate/_activate.js
+444 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/activate/activate.html
+445 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/login/_login.controller.js
+446 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/login/_login.js
+447 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/login/login.html
+448 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/logout/_logout.controller.js
+449 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/logout/_logout.js
+450 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/password/_password.controller.js
+451 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/password/_password.directive.js
+452 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/password/_password.js
+453 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/password/password.html
+454 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/register/_register.controller.js
+455 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/register/_register.js
+456 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/register/register.html
+457 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/sessions/_sessions.controller.js
+458 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/sessions/_sessions.js
+459 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/sessions/sessions.html
+460 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/settings/_settings.controller.js
+461 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/settings/_settings.js
+462 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/account/settings/settings.html
+463 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/_admin.js
+464 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/audits/_audits.controller.js
+465 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/audits/_audits.js
+466 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/audits/audits.html
+467 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/configuration/_configuration.controller.js
+468 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/configuration/_configuration.js
+469 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/configuration/configuration.html
+470 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/docs/_docs.js
+471 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/docs/docs.html
+472 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/health/_health.controller.js
+473 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/health/_health.js
+474 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/health/health.html
+475 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/logs/_logs.controller.js
+476 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/logs/_logs.js
+477 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/logs/logs.html
+478 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/metrics/_metrics.controller.js
+479 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/metrics/_metrics.js
+480 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/metrics/_metrics.html
+481 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/tracker/_tracker.controller.js
+482 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/tracker/_tracker.js
+483 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/admin/tracker/tracker.html
+484 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/entities/_entity.js
+485 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/error/_error.js
+486 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/error/accessdenied.html
+487 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/error/error.html
+488 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/main/_main.controller.js
+489 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/main/_main.js
+490 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/app/main/main.html
+491 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/admin/_audits.service.js
+492 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/admin/_configuration.service.js
+493 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/admin/_logs.service.js
+494 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/admin/_monitoring.service.js
+495 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/_auth.service.js
+496 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/_principal.service.js
+497 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/provider/_auth.oauth2.service.js
+498 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/provider/_auth.session.service.js
+499 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/services/_account.service.js
+500 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/services/_activate.service.js
+501 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/services/_password.service.js
+502 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/services/_register.service.js
+503 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/auth/services/_sessions.service.js
+504 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/form/_form.directive.js
+505 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/language/_language.controller.js
+506 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/language/_language.service.js
+507 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/navbar/_navbar.controller.js
+508 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/navbar/_navbar.directive.js
+509 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/navbar/navbar.html
+510 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/tracker/_tracker.service.js
+511 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/util/_base64.service.js
+512 silly gunzTarPerm extractEntry app/templates/src/main/webapp/scripts/components/util/_truncate.filter.js
+513 silly gunzTarPerm extractEntry app/templates/src/main/webapp/swagger-ui/_index.html
+514 silly gunzTarPerm extractEntry app/templates/src/main/webapp/swagger-ui/images/throbber.gif
+515 silly gunzTarPerm extractEntry app/templates/src/test/java/package/config/_MongoConfiguration.java
+516 silly gunzTarPerm extractEntry app/templates/src/test/java/package/security/_SecurityUtilsTest.java
+517 silly gunzTarPerm extractEntry app/templates/src/test/java/package/service/_UserServiceTest.java
+518 silly gunzTarPerm extractEntry app/templates/src/test/java/package/web/rest/_AccountResourceTest.java
+519 silly gunzTarPerm extractEntry app/templates/src/test/java/package/web/rest/_TestUtil.java
+520 silly gunzTarPerm extractEntry app/templates/src/test/java/package/web/rest/_UserResourceTest.java
+521 silly gunzTarPerm extractEntry app/templates/src/test/javascript/_karma.conf.js
+522 silly gunzTarPerm extractEntry app/templates/src/test/javascript/spec/app/account/login/_loginControllerSpec.js
+523 silly gunzTarPerm extractEntry app/templates/src/test/javascript/spec/app/account/password/_passwordControllerSpec.js
+524 silly gunzTarPerm extractEntry app/templates/src/test/javascript/spec/app/account/password/_passwordDirectiveSpec.js
+525 silly gunzTarPerm extractEntry app/templates/src/test/javascript/spec/app/account/sessions/_sessionsControllerSpec.js
+526 silly gunzTarPerm extractEntry app/templates/src/test/javascript/spec/app/account/settings/_settingsControllerSpec.js
+527 silly gunzTarPerm extractEntry app/templates/src/test/javascript/spec/components/auth/_authServicesSpec.js
+528 silly gunzTarPerm extractEntry app/templates/src/test/resources/_ehcache.xml
+529 silly gunzTarPerm extractEntry app/templates/src/test/resources/_logback-test.xml
+530 silly gunzTarPerm extractEntry app/templates/src/test/resources/config/_application.yml
+531 silly gunzTarPerm extractEntry app/templates/_yeoman.gradle
+532 silly gunzTarPerm extractEntry .editorconfig
+533 silly gunzTarPerm extractEntry entity/index.js
+534 silly gunzTarPerm extractEntry entity/USAGE
+535 silly gunzTarPerm extractEntry entity/templates/src/main/java/package/domain/_Entity.java
+536 silly gunzTarPerm extractEntry entity/templates/src/main/java/package/repository/_EntityRepository.java
+537 silly gunzTarPerm extractEntry entity/templates/src/main/java/package/web/rest/_EntityResource.java
+538 silly gunzTarPerm extractEntry entity/templates/src/main/resources/config/liquibase/changelog/_added_entity.xml
+539 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/app/_entity-controller.js
+540 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/app/_entity-detail-controller.js
+541 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/app/_entity.js
+542 silly lockFile bc1a5550-alth-myhealth-node-modules-bower tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower
+543 silly lockFile bc1a5550-alth-myhealth-node-modules-bower tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower
+544 silly lockFile 1fe235a5-HEN-npm-bower-1-3-12-package-tgz tar:///Users/JIECHEN/.npm/bower/1.3.12/package.tgz
+545 silly lockFile 1fe235a5-HEN-npm-bower-1-3-12-package-tgz tar:///Users/JIECHEN/.npm/bower/1.3.12/package.tgz
+546 info preinstall bower@1.3.12
+547 verbose readDependencies using package.json deps
+548 verbose readDependencies using package.json deps
+549 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/app/_entities.html
+550 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/app/_entity-detail.html
+551 verbose cache add [ 'abbrev@~1.0.4', null ]
+552 verbose cache add name=undefined spec="abbrev@~1.0.4" args=["abbrev@~1.0.4",null]
+553 verbose parsed url { protocol: null,
+553 verbose parsed url   slashes: null,
+553 verbose parsed url   auth: null,
+553 verbose parsed url   host: null,
+553 verbose parsed url   port: null,
+553 verbose parsed url   hostname: null,
+553 verbose parsed url   hash: null,
+553 verbose parsed url   search: null,
+553 verbose parsed url   query: null,
+553 verbose parsed url   pathname: 'abbrev@~1.0.4',
+553 verbose parsed url   path: 'abbrev@~1.0.4',
+553 verbose parsed url   href: 'abbrev@~1.0.4' }
+554 verbose cache add [ 'archy@0.0.2', null ]
+555 verbose cache add name=undefined spec="archy@0.0.2" args=["archy@0.0.2",null]
+556 verbose parsed url { protocol: null,
+556 verbose parsed url   slashes: null,
+556 verbose parsed url   auth: null,
+556 verbose parsed url   host: null,
+556 verbose parsed url   port: null,
+556 verbose parsed url   hostname: null,
+556 verbose parsed url   hash: null,
+556 verbose parsed url   search: null,
+556 verbose parsed url   query: null,
+556 verbose parsed url   pathname: 'archy@0.0.2',
+556 verbose parsed url   path: 'archy@0.0.2',
+556 verbose parsed url   href: 'archy@0.0.2' }
+557 verbose cache add name="abbrev" spec="~1.0.4" args=["abbrev","~1.0.4"]
+558 verbose parsed url { protocol: null,
+558 verbose parsed url   slashes: null,
+558 verbose parsed url   auth: null,
+558 verbose parsed url   host: null,
+558 verbose parsed url   port: null,
+558 verbose parsed url   hostname: null,
+558 verbose parsed url   hash: null,
+558 verbose parsed url   search: null,
+558 verbose parsed url   query: null,
+558 verbose parsed url   pathname: '~1.0.4',
+558 verbose parsed url   path: '~1.0.4',
+558 verbose parsed url   href: '~1.0.4' }
+559 verbose addNamed [ 'abbrev', '~1.0.4' ]
+560 verbose addNamed [ null, '>=1.0.4-0 <1.1.0-0' ]
+561 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+562 verbose lock abbrev@~1.0.4 /Users/JIECHEN/.npm/efa0e9e0-abbrev-1-0-4.lock
+563 verbose cache add name="archy" spec="0.0.2" args=["archy","0.0.2"]
+564 verbose parsed url { protocol: null,
+564 verbose parsed url   slashes: null,
+564 verbose parsed url   auth: null,
+564 verbose parsed url   host: null,
+564 verbose parsed url   port: null,
+564 verbose parsed url   hostname: null,
+564 verbose parsed url   hash: null,
+564 verbose parsed url   search: null,
+564 verbose parsed url   query: null,
+564 verbose parsed url   pathname: '0.0.2',
+564 verbose parsed url   path: '0.0.2',
+564 verbose parsed url   href: '0.0.2' }
+565 verbose addNamed [ 'archy', '0.0.2' ]
+566 verbose addNamed [ '0.0.2', '0.0.2' ]
+567 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+568 verbose lock archy@0.0.2 /Users/JIECHEN/.npm/c97e9070-archy-0-0-2.lock
+569 verbose cache add [ 'bower-config@~0.5.2', null ]
+570 verbose cache add name=undefined spec="bower-config@~0.5.2" args=["bower-config@~0.5.2",null]
+571 verbose parsed url { protocol: null,
+571 verbose parsed url   slashes: null,
+571 verbose parsed url   auth: null,
+571 verbose parsed url   host: null,
+571 verbose parsed url   port: null,
+571 verbose parsed url   hostname: null,
+571 verbose parsed url   hash: null,
+571 verbose parsed url   search: null,
+571 verbose parsed url   query: null,
+571 verbose parsed url   pathname: 'bower-config@~0.5.2',
+571 verbose parsed url   path: 'bower-config@~0.5.2',
+571 verbose parsed url   href: 'bower-config@~0.5.2' }
+572 verbose cache add name="bower-config" spec="~0.5.2" args=["bower-config","~0.5.2"]
+573 verbose parsed url { protocol: null,
+573 verbose parsed url   slashes: null,
+573 verbose parsed url   auth: null,
+573 verbose parsed url   host: null,
+573 verbose parsed url   port: null,
+573 verbose parsed url   hostname: null,
+573 verbose parsed url   hash: null,
+573 verbose parsed url   search: null,
+573 verbose parsed url   query: null,
+573 verbose parsed url   pathname: '~0.5.2',
+573 verbose parsed url   path: '~0.5.2',
+573 verbose parsed url   href: '~0.5.2' }
+574 verbose addNamed [ 'bower-config', '~0.5.2' ]
+575 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+576 silly lockFile 6ec0f64b-bower-config-0-5-2 bower-config@~0.5.2
+577 verbose lock bower-config@~0.5.2 /Users/JIECHEN/.npm/6ec0f64b-bower-config-0-5-2.lock
+578 silly addNameRange { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: false }
+579 verbose cache add [ 'bower-endpoint-parser@~0.2.2', null ]
+580 verbose cache add name=undefined spec="bower-endpoint-parser@~0.2.2" args=["bower-endpoint-parser@~0.2.2",null]
+581 verbose parsed url { protocol: null,
+581 verbose parsed url   slashes: null,
+581 verbose parsed url   auth: null,
+581 verbose parsed url   host: null,
+581 verbose parsed url   port: null,
+581 verbose parsed url   hostname: null,
+581 verbose parsed url   hash: null,
+581 verbose parsed url   search: null,
+581 verbose parsed url   query: null,
+581 verbose parsed url   pathname: 'bower-endpoint-parser@~0.2.2',
+581 verbose parsed url   path: 'bower-endpoint-parser@~0.2.2',
+581 verbose parsed url   href: 'bower-endpoint-parser@~0.2.2' }
+582 silly addNameRange { name: 'bower-config',
+582 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+582 silly addNameRange   hasData: false }
+583 verbose cache add name="bower-endpoint-parser" spec="~0.2.2" args=["bower-endpoint-parser","~0.2.2"]
+584 verbose parsed url { protocol: null,
+584 verbose parsed url   slashes: null,
+584 verbose parsed url   auth: null,
+584 verbose parsed url   host: null,
+584 verbose parsed url   port: null,
+584 verbose parsed url   hostname: null,
+584 verbose parsed url   hash: null,
+584 verbose parsed url   search: null,
+584 verbose parsed url   query: null,
+584 verbose parsed url   pathname: '~0.2.2',
+584 verbose parsed url   path: '~0.2.2',
+584 verbose parsed url   href: '~0.2.2' }
+585 verbose addNamed [ 'bower-endpoint-parser', '~0.2.2' ]
+586 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+587 silly lockFile c23e4b02-bower-endpoint-parser-0-2-2 bower-endpoint-parser@~0.2.2
+588 verbose lock bower-endpoint-parser@~0.2.2 /Users/JIECHEN/.npm/c23e4b02-bower-endpoint-parser-0-2-2.lock
+589 silly addNameRange { name: 'bower-endpoint-parser',
+589 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+589 silly addNameRange   hasData: false }
+590 verbose cache add [ 'bower-logger@~0.2.2', null ]
+591 verbose cache add name=undefined spec="bower-logger@~0.2.2" args=["bower-logger@~0.2.2",null]
+592 verbose parsed url { protocol: null,
+592 verbose parsed url   slashes: null,
+592 verbose parsed url   auth: null,
+592 verbose parsed url   host: null,
+592 verbose parsed url   port: null,
+592 verbose parsed url   hostname: null,
+592 verbose parsed url   hash: null,
+592 verbose parsed url   search: null,
+592 verbose parsed url   query: null,
+592 verbose parsed url   pathname: 'bower-logger@~0.2.2',
+592 verbose parsed url   path: 'bower-logger@~0.2.2',
+592 verbose parsed url   href: 'bower-logger@~0.2.2' }
+593 verbose cache add [ 'bower-json@~0.4.0', null ]
+594 verbose cache add name=undefined spec="bower-json@~0.4.0" args=["bower-json@~0.4.0",null]
+595 verbose parsed url { protocol: null,
+595 verbose parsed url   slashes: null,
+595 verbose parsed url   auth: null,
+595 verbose parsed url   host: null,
+595 verbose parsed url   port: null,
+595 verbose parsed url   hostname: null,
+595 verbose parsed url   hash: null,
+595 verbose parsed url   search: null,
+595 verbose parsed url   query: null,
+595 verbose parsed url   pathname: 'bower-json@~0.4.0',
+595 verbose parsed url   path: 'bower-json@~0.4.0',
+595 verbose parsed url   href: 'bower-json@~0.4.0' }
+596 verbose url raw abbrev
+597 verbose url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
+598 verbose url resolved https://registry.npmjs.org/abbrev
+599 info trying registry request attempt 1 at 20:51:27
+600 verbose etag "44V0EGD4ZJQEY20FUU97O7S8K"
+601 http GET https://registry.npmjs.org/abbrev
+602 verbose cache add name="bower-logger" spec="~0.2.2" args=["bower-logger","~0.2.2"]
+603 verbose parsed url { protocol: null,
+603 verbose parsed url   slashes: null,
+603 verbose parsed url   auth: null,
+603 verbose parsed url   host: null,
+603 verbose parsed url   port: null,
+603 verbose parsed url   hostname: null,
+603 verbose parsed url   hash: null,
+603 verbose parsed url   search: null,
+603 verbose parsed url   query: null,
+603 verbose parsed url   pathname: '~0.2.2',
+603 verbose parsed url   path: '~0.2.2',
+603 verbose parsed url   href: '~0.2.2' }
+604 verbose addNamed [ 'bower-logger', '~0.2.2' ]
+605 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+606 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+607 verbose lock bower-logger@~0.2.2 /Users/JIECHEN/.npm/4dfc8f43-bower-logger-0-2-2.lock
+608 verbose cache add [ 'bower-registry-client@~0.2.0', null ]
+609 verbose cache add name=undefined spec="bower-registry-client@~0.2.0" args=["bower-registry-client@~0.2.0",null]
+610 verbose parsed url { protocol: null,
+610 verbose parsed url   slashes: null,
+610 verbose parsed url   auth: null,
+610 verbose parsed url   host: null,
+610 verbose parsed url   port: null,
+610 verbose parsed url   hostname: null,
+610 verbose parsed url   hash: null,
+610 verbose parsed url   search: null,
+610 verbose parsed url   query: null,
+610 verbose parsed url   pathname: 'bower-registry-client@~0.2.0',
+610 verbose parsed url   path: 'bower-registry-client@~0.2.0',
+610 verbose parsed url   href: 'bower-registry-client@~0.2.0' }
+611 verbose cache add [ 'cardinal@0.4.0', null ]
+612 verbose cache add name=undefined spec="cardinal@0.4.0" args=["cardinal@0.4.0",null]
+613 verbose parsed url { protocol: null,
+613 verbose parsed url   slashes: null,
+613 verbose parsed url   auth: null,
+613 verbose parsed url   host: null,
+613 verbose parsed url   port: null,
+613 verbose parsed url   hostname: null,
+613 verbose parsed url   hash: null,
+613 verbose parsed url   search: null,
+613 verbose parsed url   query: null,
+613 verbose parsed url   pathname: 'cardinal@0.4.0',
+613 verbose parsed url   path: 'cardinal@0.4.0',
+613 verbose parsed url   href: 'cardinal@0.4.0' }
+614 verbose cache add [ 'chalk@0.5.0', null ]
+615 verbose cache add name=undefined spec="chalk@0.5.0" args=["chalk@0.5.0",null]
+616 verbose parsed url { protocol: null,
+616 verbose parsed url   slashes: null,
+616 verbose parsed url   auth: null,
+616 verbose parsed url   host: null,
+616 verbose parsed url   port: null,
+616 verbose parsed url   hostname: null,
+616 verbose parsed url   hash: null,
+616 verbose parsed url   search: null,
+616 verbose parsed url   query: null,
+616 verbose parsed url   pathname: 'chalk@0.5.0',
+616 verbose parsed url   path: 'chalk@0.5.0',
+616 verbose parsed url   href: 'chalk@0.5.0' }
+617 verbose cache add name="bower-json" spec="~0.4.0" args=["bower-json","~0.4.0"]
+618 verbose parsed url { protocol: null,
+618 verbose parsed url   slashes: null,
+618 verbose parsed url   auth: null,
+618 verbose parsed url   host: null,
+618 verbose parsed url   port: null,
+618 verbose parsed url   hostname: null,
+618 verbose parsed url   hash: null,
+618 verbose parsed url   search: null,
+618 verbose parsed url   query: null,
+618 verbose parsed url   pathname: '~0.4.0',
+618 verbose parsed url   path: '~0.4.0',
+618 verbose parsed url   href: '~0.4.0' }
+619 verbose addNamed [ 'bower-json', '~0.4.0' ]
+620 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+621 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+622 verbose lock bower-json@~0.4.0 /Users/JIECHEN/.npm/ea848668-bower-json-0-4-0.lock
+623 verbose url raw archy
+624 verbose url resolving [ 'https://registry.npmjs.org/', './archy' ]
+625 verbose url resolved https://registry.npmjs.org/archy
+626 info trying registry request attempt 1 at 20:51:27
+627 verbose etag "E4I5FL22W2GGOMN8HHDD9JJAV"
+628 http GET https://registry.npmjs.org/archy
+629 verbose cache add name="bower-registry-client" spec="~0.2.0" args=["bower-registry-client","~0.2.0"]
+630 verbose parsed url { protocol: null,
+630 verbose parsed url   slashes: null,
+630 verbose parsed url   auth: null,
+630 verbose parsed url   host: null,
+630 verbose parsed url   port: null,
+630 verbose parsed url   hostname: null,
+630 verbose parsed url   hash: null,
+630 verbose parsed url   search: null,
+630 verbose parsed url   query: null,
+630 verbose parsed url   pathname: '~0.2.0',
+630 verbose parsed url   path: '~0.2.0',
+630 verbose parsed url   href: '~0.2.0' }
+631 verbose addNamed [ 'bower-registry-client', '~0.2.0' ]
+632 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+633 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+634 verbose lock bower-registry-client@~0.2.0 /Users/JIECHEN/.npm/f1b922af-bower-registry-client-0-2-0.lock
+635 verbose cache add name="cardinal" spec="0.4.0" args=["cardinal","0.4.0"]
+636 verbose parsed url { protocol: null,
+636 verbose parsed url   slashes: null,
+636 verbose parsed url   auth: null,
+636 verbose parsed url   host: null,
+636 verbose parsed url   port: null,
+636 verbose parsed url   hostname: null,
+636 verbose parsed url   hash: null,
+636 verbose parsed url   search: null,
+636 verbose parsed url   query: null,
+636 verbose parsed url   pathname: '0.4.0',
+636 verbose parsed url   path: '0.4.0',
+636 verbose parsed url   href: '0.4.0' }
+637 verbose addNamed [ 'cardinal', '0.4.0' ]
+638 verbose addNamed [ '0.4.0', '0.4.0' ]
+639 silly lockFile f5578357-cardinal-0-4-0 cardinal@0.4.0
+640 verbose lock cardinal@0.4.0 /Users/JIECHEN/.npm/f5578357-cardinal-0-4-0.lock
+641 verbose cache add [ 'chmodr@0.1.0', null ]
+642 verbose cache add name=undefined spec="chmodr@0.1.0" args=["chmodr@0.1.0",null]
+643 verbose parsed url { protocol: null,
+643 verbose parsed url   slashes: null,
+643 verbose parsed url   auth: null,
+643 verbose parsed url   host: null,
+643 verbose parsed url   port: null,
+643 verbose parsed url   hostname: null,
+643 verbose parsed url   hash: null,
+643 verbose parsed url   search: null,
+643 verbose parsed url   query: null,
+643 verbose parsed url   pathname: 'chmodr@0.1.0',
+643 verbose parsed url   path: 'chmodr@0.1.0',
+643 verbose parsed url   href: 'chmodr@0.1.0' }
+644 verbose cache add [ 'decompress-zip@0.0.8', null ]
+645 verbose cache add name=undefined spec="decompress-zip@0.0.8" args=["decompress-zip@0.0.8",null]
+646 verbose parsed url { protocol: null,
+646 verbose parsed url   slashes: null,
+646 verbose parsed url   auth: null,
+646 verbose parsed url   host: null,
+646 verbose parsed url   port: null,
+646 verbose parsed url   hostname: null,
+646 verbose parsed url   hash: null,
+646 verbose parsed url   search: null,
+646 verbose parsed url   query: null,
+646 verbose parsed url   pathname: 'decompress-zip@0.0.8',
+646 verbose parsed url   path: 'decompress-zip@0.0.8',
+646 verbose parsed url   href: 'decompress-zip@0.0.8' }
+647 verbose cache add [ 'fstream@~1.0.2', null ]
+648 verbose cache add name=undefined spec="fstream@~1.0.2" args=["fstream@~1.0.2",null]
+649 verbose parsed url { protocol: null,
+649 verbose parsed url   slashes: null,
+649 verbose parsed url   auth: null,
+649 verbose parsed url   host: null,
+649 verbose parsed url   port: null,
+649 verbose parsed url   hostname: null,
+649 verbose parsed url   hash: null,
+649 verbose parsed url   search: null,
+649 verbose parsed url   query: null,
+649 verbose parsed url   pathname: 'fstream@~1.0.2',
+649 verbose parsed url   path: 'fstream@~1.0.2',
+649 verbose parsed url   href: 'fstream@~1.0.2' }
+650 verbose cache add [ 'fstream-ignore@~1.0.1', null ]
+651 verbose cache add name=undefined spec="fstream-ignore@~1.0.1" args=["fstream-ignore@~1.0.1",null]
+652 verbose parsed url { protocol: null,
+652 verbose parsed url   slashes: null,
+652 verbose parsed url   auth: null,
+652 verbose parsed url   host: null,
+652 verbose parsed url   port: null,
+652 verbose parsed url   hostname: null,
+652 verbose parsed url   hash: null,
+652 verbose parsed url   search: null,
+652 verbose parsed url   query: null,
+652 verbose parsed url   pathname: 'fstream-ignore@~1.0.1',
+652 verbose parsed url   path: 'fstream-ignore@~1.0.1',
+652 verbose parsed url   href: 'fstream-ignore@~1.0.1' }
+653 verbose cache add name="chalk" spec="0.5.0" args=["chalk","0.5.0"]
+654 verbose parsed url { protocol: null,
+654 verbose parsed url   slashes: null,
+654 verbose parsed url   auth: null,
+654 verbose parsed url   host: null,
+654 verbose parsed url   port: null,
+654 verbose parsed url   hostname: null,
+654 verbose parsed url   hash: null,
+654 verbose parsed url   search: null,
+654 verbose parsed url   query: null,
+654 verbose parsed url   pathname: '0.5.0',
+654 verbose parsed url   path: '0.5.0',
+654 verbose parsed url   href: '0.5.0' }
+655 verbose addNamed [ 'chalk', '0.5.0' ]
+656 verbose addNamed [ '0.5.0', '0.5.0' ]
+657 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+658 verbose lock chalk@0.5.0 /Users/JIECHEN/.npm/b1055cc0-chalk-0-5-0.lock
+659 verbose url raw bower-config
+660 verbose url resolving [ 'https://registry.npmjs.org/', './bower-config' ]
+661 verbose url resolved https://registry.npmjs.org/bower-config
+662 info trying registry request attempt 1 at 20:51:27
+663 verbose etag "2QJL67DCUJ995J0GU9GQPGGH2"
+664 http GET https://registry.npmjs.org/bower-config
+665 silly addNameRange { name: 'bower-logger',
+665 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+665 silly addNameRange   hasData: false }
+666 verbose cache add name="chmodr" spec="0.1.0" args=["chmodr","0.1.0"]
+667 verbose parsed url { protocol: null,
+667 verbose parsed url   slashes: null,
+667 verbose parsed url   auth: null,
+667 verbose parsed url   host: null,
+667 verbose parsed url   port: null,
+667 verbose parsed url   hostname: null,
+667 verbose parsed url   hash: null,
+667 verbose parsed url   search: null,
+667 verbose parsed url   query: null,
+667 verbose parsed url   pathname: '0.1.0',
+667 verbose parsed url   path: '0.1.0',
+667 verbose parsed url   href: '0.1.0' }
+668 verbose addNamed [ 'chmodr', '0.1.0' ]
+669 verbose addNamed [ '0.1.0', '0.1.0' ]
+670 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+671 verbose lock chmodr@0.1.0 /Users/JIECHEN/.npm/3c50e6b3-chmodr-0-1-0.lock
+672 verbose cache add name="decompress-zip" spec="0.0.8" args=["decompress-zip","0.0.8"]
+673 verbose parsed url { protocol: null,
+673 verbose parsed url   slashes: null,
+673 verbose parsed url   auth: null,
+673 verbose parsed url   host: null,
+673 verbose parsed url   port: null,
+673 verbose parsed url   hostname: null,
+673 verbose parsed url   hash: null,
+673 verbose parsed url   search: null,
+673 verbose parsed url   query: null,
+673 verbose parsed url   pathname: '0.0.8',
+673 verbose parsed url   path: '0.0.8',
+673 verbose parsed url   href: '0.0.8' }
+674 verbose addNamed [ 'decompress-zip', '0.0.8' ]
+675 verbose addNamed [ '0.0.8', '0.0.8' ]
+676 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+677 verbose lock decompress-zip@0.0.8 /Users/JIECHEN/.npm/7a56c733-decompress-zip-0-0-8.lock
+678 verbose cache add name="fstream" spec="~1.0.2" args=["fstream","~1.0.2"]
+679 verbose parsed url { protocol: null,
+679 verbose parsed url   slashes: null,
+679 verbose parsed url   auth: null,
+679 verbose parsed url   host: null,
+679 verbose parsed url   port: null,
+679 verbose parsed url   hostname: null,
+679 verbose parsed url   hash: null,
+679 verbose parsed url   search: null,
+679 verbose parsed url   query: null,
+679 verbose parsed url   pathname: '~1.0.2',
+679 verbose parsed url   path: '~1.0.2',
+679 verbose parsed url   href: '~1.0.2' }
+680 verbose addNamed [ 'fstream', '~1.0.2' ]
+681 verbose addNamed [ null, '>=1.0.2-0 <1.1.0-0' ]
+682 silly lockFile bada8ba0-fstream-1-0-2 fstream@~1.0.2
+683 verbose lock fstream@~1.0.2 /Users/JIECHEN/.npm/bada8ba0-fstream-1-0-2.lock
+684 verbose cache add [ 'glob@~4.0.2', null ]
+685 verbose cache add name=undefined spec="glob@~4.0.2" args=["glob@~4.0.2",null]
+686 verbose parsed url { protocol: null,
+686 verbose parsed url   slashes: null,
+686 verbose parsed url   auth: null,
+686 verbose parsed url   host: null,
+686 verbose parsed url   port: null,
+686 verbose parsed url   hostname: null,
+686 verbose parsed url   hash: null,
+686 verbose parsed url   search: null,
+686 verbose parsed url   query: null,
+686 verbose parsed url   pathname: 'glob@~4.0.2',
+686 verbose parsed url   path: 'glob@~4.0.2',
+686 verbose parsed url   href: 'glob@~4.0.2' }
+687 verbose cache add [ 'graceful-fs@~3.0.1', null ]
+688 verbose cache add name=undefined spec="graceful-fs@~3.0.1" args=["graceful-fs@~3.0.1",null]
+689 verbose parsed url { protocol: null,
+689 verbose parsed url   slashes: null,
+689 verbose parsed url   auth: null,
+689 verbose parsed url   host: null,
+689 verbose parsed url   port: null,
+689 verbose parsed url   hostname: null,
+689 verbose parsed url   hash: null,
+689 verbose parsed url   search: null,
+689 verbose parsed url   query: null,
+689 verbose parsed url   pathname: 'graceful-fs@~3.0.1',
+689 verbose parsed url   path: 'graceful-fs@~3.0.1',
+689 verbose parsed url   href: 'graceful-fs@~3.0.1' }
+690 verbose cache add [ 'handlebars@~2.0.0', null ]
+691 verbose cache add name=undefined spec="handlebars@~2.0.0" args=["handlebars@~2.0.0",null]
+692 verbose parsed url { protocol: null,
+692 verbose parsed url   slashes: null,
+692 verbose parsed url   auth: null,
+692 verbose parsed url   host: null,
+692 verbose parsed url   port: null,
+692 verbose parsed url   hostname: null,
+692 verbose parsed url   hash: null,
+692 verbose parsed url   search: null,
+692 verbose parsed url   query: null,
+692 verbose parsed url   pathname: 'handlebars@~2.0.0',
+692 verbose parsed url   path: 'handlebars@~2.0.0',
+692 verbose parsed url   href: 'handlebars@~2.0.0' }
+693 verbose cache add [ 'inquirer@0.7.1', null ]
+694 verbose cache add name=undefined spec="inquirer@0.7.1" args=["inquirer@0.7.1",null]
+695 verbose parsed url { protocol: null,
+695 verbose parsed url   slashes: null,
+695 verbose parsed url   auth: null,
+695 verbose parsed url   host: null,
+695 verbose parsed url   port: null,
+695 verbose parsed url   hostname: null,
+695 verbose parsed url   hash: null,
+695 verbose parsed url   search: null,
+695 verbose parsed url   query: null,
+695 verbose parsed url   pathname: 'inquirer@0.7.1',
+695 verbose parsed url   path: 'inquirer@0.7.1',
+695 verbose parsed url   href: 'inquirer@0.7.1' }
+696 verbose cache add [ 'insight@0.4.3', null ]
+697 verbose cache add name=undefined spec="insight@0.4.3" args=["insight@0.4.3",null]
+698 verbose parsed url { protocol: null,
+698 verbose parsed url   slashes: null,
+698 verbose parsed url   auth: null,
+698 verbose parsed url   host: null,
+698 verbose parsed url   port: null,
+698 verbose parsed url   hostname: null,
+698 verbose parsed url   hash: null,
+698 verbose parsed url   search: null,
+698 verbose parsed url   query: null,
+698 verbose parsed url   pathname: 'insight@0.4.3',
+698 verbose parsed url   path: 'insight@0.4.3',
+698 verbose parsed url   href: 'insight@0.4.3' }
+699 verbose cache add name="fstream-ignore" spec="~1.0.1" args=["fstream-ignore","~1.0.1"]
+700 verbose parsed url { protocol: null,
+700 verbose parsed url   slashes: null,
+700 verbose parsed url   auth: null,
+700 verbose parsed url   host: null,
+700 verbose parsed url   port: null,
+700 verbose parsed url   hostname: null,
+700 verbose parsed url   hash: null,
+700 verbose parsed url   search: null,
+700 verbose parsed url   query: null,
+700 verbose parsed url   pathname: '~1.0.1',
+700 verbose parsed url   path: '~1.0.1',
+700 verbose parsed url   href: '~1.0.1' }
+701 verbose addNamed [ 'fstream-ignore', '~1.0.1' ]
+702 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+703 silly lockFile 4e461ac0-fstream-ignore-1-0-1 fstream-ignore@~1.0.1
+704 verbose lock fstream-ignore@~1.0.1 /Users/JIECHEN/.npm/4e461ac0-fstream-ignore-1-0-1.lock
+705 silly addNameRange { name: 'bower-json',
+705 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+705 silly addNameRange   hasData: false }
+706 silly addNameRange { name: 'bower-registry-client',
+706 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+706 silly addNameRange   hasData: false }
+707 verbose cache add name="glob" spec="~4.0.2" args=["glob","~4.0.2"]
+708 verbose parsed url { protocol: null,
+708 verbose parsed url   slashes: null,
+708 verbose parsed url   auth: null,
+708 verbose parsed url   host: null,
+708 verbose parsed url   port: null,
+708 verbose parsed url   hostname: null,
+708 verbose parsed url   hash: null,
+708 verbose parsed url   search: null,
+708 verbose parsed url   query: null,
+708 verbose parsed url   pathname: '~4.0.2',
+708 verbose parsed url   path: '~4.0.2',
+708 verbose parsed url   href: '~4.0.2' }
+709 verbose addNamed [ 'glob', '~4.0.2' ]
+710 verbose addNamed [ null, '>=4.0.2-0 <4.1.0-0' ]
+711 silly lockFile 93e00600-glob-4-0-2 glob@~4.0.2
+712 verbose lock glob@~4.0.2 /Users/JIECHEN/.npm/93e00600-glob-4-0-2.lock
+713 verbose cache add name="graceful-fs" spec="~3.0.1" args=["graceful-fs","~3.0.1"]
+714 verbose parsed url { protocol: null,
+714 verbose parsed url   slashes: null,
+714 verbose parsed url   auth: null,
+714 verbose parsed url   host: null,
+714 verbose parsed url   port: null,
+714 verbose parsed url   hostname: null,
+714 verbose parsed url   hash: null,
+714 verbose parsed url   search: null,
+714 verbose parsed url   query: null,
+714 verbose parsed url   pathname: '~3.0.1',
+714 verbose parsed url   path: '~3.0.1',
+714 verbose parsed url   href: '~3.0.1' }
+715 verbose addNamed [ 'graceful-fs', '~3.0.1' ]
+716 verbose addNamed [ null, '>=3.0.1-0 <3.1.0-0' ]
+717 silly lockFile 901920ca-graceful-fs-3-0-1 graceful-fs@~3.0.1
+718 verbose lock graceful-fs@~3.0.1 /Users/JIECHEN/.npm/901920ca-graceful-fs-3-0-1.lock
+719 verbose cache add name="handlebars" spec="~2.0.0" args=["handlebars","~2.0.0"]
+720 verbose parsed url { protocol: null,
+720 verbose parsed url   slashes: null,
+720 verbose parsed url   auth: null,
+720 verbose parsed url   host: null,
+720 verbose parsed url   port: null,
+720 verbose parsed url   hostname: null,
+720 verbose parsed url   hash: null,
+720 verbose parsed url   search: null,
+720 verbose parsed url   query: null,
+720 verbose parsed url   pathname: '~2.0.0',
+720 verbose parsed url   path: '~2.0.0',
+720 verbose parsed url   href: '~2.0.0' }
+721 verbose addNamed [ 'handlebars', '~2.0.0' ]
+722 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+723 silly lockFile 917ab67d-handlebars-2-0-0 handlebars@~2.0.0
+724 verbose lock handlebars@~2.0.0 /Users/JIECHEN/.npm/917ab67d-handlebars-2-0-0.lock
+725 verbose cache add name="inquirer" spec="0.7.1" args=["inquirer","0.7.1"]
+726 verbose parsed url { protocol: null,
+726 verbose parsed url   slashes: null,
+726 verbose parsed url   auth: null,
+726 verbose parsed url   host: null,
+726 verbose parsed url   port: null,
+726 verbose parsed url   hostname: null,
+726 verbose parsed url   hash: null,
+726 verbose parsed url   search: null,
+726 verbose parsed url   query: null,
+726 verbose parsed url   pathname: '0.7.1',
+726 verbose parsed url   path: '0.7.1',
+726 verbose parsed url   href: '0.7.1' }
+727 verbose addNamed [ 'inquirer', '0.7.1' ]
+728 verbose addNamed [ '0.7.1', '0.7.1' ]
+729 silly lockFile 07877a53-inquirer-0-7-1 inquirer@0.7.1
+730 verbose lock inquirer@0.7.1 /Users/JIECHEN/.npm/07877a53-inquirer-0-7-1.lock
+731 verbose cache add [ 'is-root@~1.0.0', null ]
+732 verbose cache add name=undefined spec="is-root@~1.0.0" args=["is-root@~1.0.0",null]
+733 verbose parsed url { protocol: null,
+733 verbose parsed url   slashes: null,
+733 verbose parsed url   auth: null,
+733 verbose parsed url   host: null,
+733 verbose parsed url   port: null,
+733 verbose parsed url   hostname: null,
+733 verbose parsed url   hash: null,
+733 verbose parsed url   search: null,
+733 verbose parsed url   query: null,
+733 verbose parsed url   pathname: 'is-root@~1.0.0',
+733 verbose parsed url   path: 'is-root@~1.0.0',
+733 verbose parsed url   href: 'is-root@~1.0.0' }
+734 verbose cache add [ 'junk@~1.0.0', null ]
+735 verbose cache add name=undefined spec="junk@~1.0.0" args=["junk@~1.0.0",null]
+736 verbose parsed url { protocol: null,
+736 verbose parsed url   slashes: null,
+736 verbose parsed url   auth: null,
+736 verbose parsed url   host: null,
+736 verbose parsed url   port: null,
+736 verbose parsed url   hostname: null,
+736 verbose parsed url   hash: null,
+736 verbose parsed url   search: null,
+736 verbose parsed url   query: null,
+736 verbose parsed url   pathname: 'junk@~1.0.0',
+736 verbose parsed url   path: 'junk@~1.0.0',
+736 verbose parsed url   href: 'junk@~1.0.0' }
+737 verbose cache add [ 'lockfile@~1.0.0', null ]
+738 verbose cache add name=undefined spec="lockfile@~1.0.0" args=["lockfile@~1.0.0",null]
+739 verbose parsed url { protocol: null,
+739 verbose parsed url   slashes: null,
+739 verbose parsed url   auth: null,
+739 verbose parsed url   host: null,
+739 verbose parsed url   port: null,
+739 verbose parsed url   hostname: null,
+739 verbose parsed url   hash: null,
+739 verbose parsed url   search: null,
+739 verbose parsed url   query: null,
+739 verbose parsed url   pathname: 'lockfile@~1.0.0',
+739 verbose parsed url   path: 'lockfile@~1.0.0',
+739 verbose parsed url   href: 'lockfile@~1.0.0' }
+740 verbose cache add name="insight" spec="0.4.3" args=["insight","0.4.3"]
+741 verbose parsed url { protocol: null,
+741 verbose parsed url   slashes: null,
+741 verbose parsed url   auth: null,
+741 verbose parsed url   host: null,
+741 verbose parsed url   port: null,
+741 verbose parsed url   hostname: null,
+741 verbose parsed url   hash: null,
+741 verbose parsed url   search: null,
+741 verbose parsed url   query: null,
+741 verbose parsed url   pathname: '0.4.3',
+741 verbose parsed url   path: '0.4.3',
+741 verbose parsed url   href: '0.4.3' }
+742 verbose addNamed [ 'insight', '0.4.3' ]
+743 verbose addNamed [ '0.4.3', '0.4.3' ]
+744 silly lockFile da4675d5-insight-0-4-3 insight@0.4.3
+745 verbose lock insight@0.4.3 /Users/JIECHEN/.npm/da4675d5-insight-0-4-3.lock
+746 verbose url raw bower-endpoint-parser
+747 verbose url resolving [ 'https://registry.npmjs.org/', './bower-endpoint-parser' ]
+748 verbose url resolved https://registry.npmjs.org/bower-endpoint-parser
+749 info trying registry request attempt 1 at 20:51:27
+750 verbose etag "464O9XBNZ7DHQI9FJ990JZ4YO"
+751 http GET https://registry.npmjs.org/bower-endpoint-parser
+752 silly addNameRange { name: 'fstream', range: '>=1.0.2-0 <1.1.0-0', hasData: false }
+753 verbose cache add name="is-root" spec="~1.0.0" args=["is-root","~1.0.0"]
+754 verbose parsed url { protocol: null,
+754 verbose parsed url   slashes: null,
+754 verbose parsed url   auth: null,
+754 verbose parsed url   host: null,
+754 verbose parsed url   port: null,
+754 verbose parsed url   hostname: null,
+754 verbose parsed url   hash: null,
+754 verbose parsed url   search: null,
+754 verbose parsed url   query: null,
+754 verbose parsed url   pathname: '~1.0.0',
+754 verbose parsed url   path: '~1.0.0',
+754 verbose parsed url   href: '~1.0.0' }
+755 verbose addNamed [ 'is-root', '~1.0.0' ]
+756 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+757 silly lockFile 53c35513-is-root-1-0-0 is-root@~1.0.0
+758 verbose lock is-root@~1.0.0 /Users/JIECHEN/.npm/53c35513-is-root-1-0-0.lock
+759 verbose cache add name="junk" spec="~1.0.0" args=["junk","~1.0.0"]
+760 verbose parsed url { protocol: null,
+760 verbose parsed url   slashes: null,
+760 verbose parsed url   auth: null,
+760 verbose parsed url   host: null,
+760 verbose parsed url   port: null,
+760 verbose parsed url   hostname: null,
+760 verbose parsed url   hash: null,
+760 verbose parsed url   search: null,
+760 verbose parsed url   query: null,
+760 verbose parsed url   pathname: '~1.0.0',
+760 verbose parsed url   path: '~1.0.0',
+760 verbose parsed url   href: '~1.0.0' }
+761 verbose addNamed [ 'junk', '~1.0.0' ]
+762 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+763 silly lockFile e4e462ce-junk-1-0-0 junk@~1.0.0
+764 verbose lock junk@~1.0.0 /Users/JIECHEN/.npm/e4e462ce-junk-1-0-0.lock
+765 verbose cache add name="lockfile" spec="~1.0.0" args=["lockfile","~1.0.0"]
+766 verbose parsed url { protocol: null,
+766 verbose parsed url   slashes: null,
+766 verbose parsed url   auth: null,
+766 verbose parsed url   host: null,
+766 verbose parsed url   port: null,
+766 verbose parsed url   hostname: null,
+766 verbose parsed url   hash: null,
+766 verbose parsed url   search: null,
+766 verbose parsed url   query: null,
+766 verbose parsed url   pathname: '~1.0.0',
+766 verbose parsed url   path: '~1.0.0',
+766 verbose parsed url   href: '~1.0.0' }
+767 verbose addNamed [ 'lockfile', '~1.0.0' ]
+768 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+769 silly lockFile af6d2126-lockfile-1-0-0 lockfile@~1.0.0
+770 verbose lock lockfile@~1.0.0 /Users/JIECHEN/.npm/af6d2126-lockfile-1-0-0.lock
+771 verbose cache add [ 'lru-cache@~2.5.0', null ]
+772 verbose cache add name=undefined spec="lru-cache@~2.5.0" args=["lru-cache@~2.5.0",null]
+773 verbose parsed url { protocol: null,
+773 verbose parsed url   slashes: null,
+773 verbose parsed url   auth: null,
+773 verbose parsed url   host: null,
+773 verbose parsed url   port: null,
+773 verbose parsed url   hostname: null,
+773 verbose parsed url   hash: null,
+773 verbose parsed url   search: null,
+773 verbose parsed url   query: null,
+773 verbose parsed url   pathname: 'lru-cache@~2.5.0',
+773 verbose parsed url   path: 'lru-cache@~2.5.0',
+773 verbose parsed url   href: 'lru-cache@~2.5.0' }
+774 verbose cache add [ 'mkdirp@0.5.0', null ]
+775 verbose cache add name=undefined spec="mkdirp@0.5.0" args=["mkdirp@0.5.0",null]
+776 verbose parsed url { protocol: null,
+776 verbose parsed url   slashes: null,
+776 verbose parsed url   auth: null,
+776 verbose parsed url   host: null,
+776 verbose parsed url   port: null,
+776 verbose parsed url   hostname: null,
+776 verbose parsed url   hash: null,
+776 verbose parsed url   search: null,
+776 verbose parsed url   query: null,
+776 verbose parsed url   pathname: 'mkdirp@0.5.0',
+776 verbose parsed url   path: 'mkdirp@0.5.0',
+776 verbose parsed url   href: 'mkdirp@0.5.0' }
+777 verbose cache add [ 'mout@~0.9.0', null ]
+778 verbose cache add name=undefined spec="mout@~0.9.0" args=["mout@~0.9.0",null]
+779 verbose parsed url { protocol: null,
+779 verbose parsed url   slashes: null,
+779 verbose parsed url   auth: null,
+779 verbose parsed url   host: null,
+779 verbose parsed url   port: null,
+779 verbose parsed url   hostname: null,
+779 verbose parsed url   hash: null,
+779 verbose parsed url   search: null,
+779 verbose parsed url   query: null,
+779 verbose parsed url   pathname: 'mout@~0.9.0',
+779 verbose parsed url   path: 'mout@~0.9.0',
+779 verbose parsed url   href: 'mout@~0.9.0' }
+780 verbose cache add [ 'nopt@~3.0.0', null ]
+781 verbose cache add name=undefined spec="nopt@~3.0.0" args=["nopt@~3.0.0",null]
+782 verbose parsed url { protocol: null,
+782 verbose parsed url   slashes: null,
+782 verbose parsed url   auth: null,
+782 verbose parsed url   host: null,
+782 verbose parsed url   port: null,
+782 verbose parsed url   hostname: null,
+782 verbose parsed url   hash: null,
+782 verbose parsed url   search: null,
+782 verbose parsed url   query: null,
+782 verbose parsed url   pathname: 'nopt@~3.0.0',
+782 verbose parsed url   path: 'nopt@~3.0.0',
+782 verbose parsed url   href: 'nopt@~3.0.0' }
+783 verbose cache add [ 'opn@~1.0.0', null ]
+784 verbose cache add name=undefined spec="opn@~1.0.0" args=["opn@~1.0.0",null]
+785 verbose parsed url { protocol: null,
+785 verbose parsed url   slashes: null,
+785 verbose parsed url   auth: null,
+785 verbose parsed url   host: null,
+785 verbose parsed url   port: null,
+785 verbose parsed url   hostname: null,
+785 verbose parsed url   hash: null,
+785 verbose parsed url   search: null,
+785 verbose parsed url   query: null,
+785 verbose parsed url   pathname: 'opn@~1.0.0',
+785 verbose parsed url   path: 'opn@~1.0.0',
+785 verbose parsed url   href: 'opn@~1.0.0' }
+786 silly addNameRange { name: 'fstream-ignore',
+786 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+786 silly addNameRange   hasData: false }
+787 silly addNameRange { name: 'glob', range: '>=4.0.2-0 <4.1.0-0', hasData: false }
+788 silly addNameRange { name: 'graceful-fs',
+788 silly addNameRange   range: '>=3.0.1-0 <3.1.0-0',
+788 silly addNameRange   hasData: false }
+789 silly addNameRange { name: 'handlebars',
+789 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+789 silly addNameRange   hasData: false }
+790 verbose cache add name="lru-cache" spec="~2.5.0" args=["lru-cache","~2.5.0"]
+791 verbose parsed url { protocol: null,
+791 verbose parsed url   slashes: null,
+791 verbose parsed url   auth: null,
+791 verbose parsed url   host: null,
+791 verbose parsed url   port: null,
+791 verbose parsed url   hostname: null,
+791 verbose parsed url   hash: null,
+791 verbose parsed url   search: null,
+791 verbose parsed url   query: null,
+791 verbose parsed url   pathname: '~2.5.0',
+791 verbose parsed url   path: '~2.5.0',
+791 verbose parsed url   href: '~2.5.0' }
+792 verbose addNamed [ 'lru-cache', '~2.5.0' ]
+793 verbose addNamed [ null, '>=2.5.0-0 <2.6.0-0' ]
+794 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+795 verbose lock lru-cache@~2.5.0 /Users/JIECHEN/.npm/d9ec30b5-lru-cache-2-5-0.lock
+796 verbose cache add name="mkdirp" spec="0.5.0" args=["mkdirp","0.5.0"]
+797 verbose parsed url { protocol: null,
+797 verbose parsed url   slashes: null,
+797 verbose parsed url   auth: null,
+797 verbose parsed url   host: null,
+797 verbose parsed url   port: null,
+797 verbose parsed url   hostname: null,
+797 verbose parsed url   hash: null,
+797 verbose parsed url   search: null,
+797 verbose parsed url   query: null,
+797 verbose parsed url   pathname: '0.5.0',
+797 verbose parsed url   path: '0.5.0',
+797 verbose parsed url   href: '0.5.0' }
+798 verbose addNamed [ 'mkdirp', '0.5.0' ]
+799 verbose addNamed [ '0.5.0', '0.5.0' ]
+800 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+801 verbose lock mkdirp@0.5.0 /Users/JIECHEN/.npm/bf9ae38d-mkdirp-0-5-0.lock
+802 verbose cache add name="mout" spec="~0.9.0" args=["mout","~0.9.0"]
+803 verbose parsed url { protocol: null,
+803 verbose parsed url   slashes: null,
+803 verbose parsed url   auth: null,
+803 verbose parsed url   host: null,
+803 verbose parsed url   port: null,
+803 verbose parsed url   hostname: null,
+803 verbose parsed url   hash: null,
+803 verbose parsed url   search: null,
+803 verbose parsed url   query: null,
+803 verbose parsed url   pathname: '~0.9.0',
+803 verbose parsed url   path: '~0.9.0',
+803 verbose parsed url   href: '~0.9.0' }
+804 verbose addNamed [ 'mout', '~0.9.0' ]
+805 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+806 silly lockFile 5ca20e6e-mout-0-9-0 mout@~0.9.0
+807 verbose lock mout@~0.9.0 /Users/JIECHEN/.npm/5ca20e6e-mout-0-9-0.lock
+808 verbose cache add name="nopt" spec="~3.0.0" args=["nopt","~3.0.0"]
+809 verbose parsed url { protocol: null,
+809 verbose parsed url   slashes: null,
+809 verbose parsed url   auth: null,
+809 verbose parsed url   host: null,
+809 verbose parsed url   port: null,
+809 verbose parsed url   hostname: null,
+809 verbose parsed url   hash: null,
+809 verbose parsed url   search: null,
+809 verbose parsed url   query: null,
+809 verbose parsed url   pathname: '~3.0.0',
+809 verbose parsed url   path: '~3.0.0',
+809 verbose parsed url   href: '~3.0.0' }
+810 verbose addNamed [ 'nopt', '~3.0.0' ]
+811 verbose addNamed [ null, '>=3.0.0-0 <3.1.0-0' ]
+812 silly lockFile 9be750cb-nopt-3-0-0 nopt@~3.0.0
+813 verbose lock nopt@~3.0.0 /Users/JIECHEN/.npm/9be750cb-nopt-3-0-0.lock
+814 verbose cache add name="opn" spec="~1.0.0" args=["opn","~1.0.0"]
+815 verbose parsed url { protocol: null,
+815 verbose parsed url   slashes: null,
+815 verbose parsed url   auth: null,
+815 verbose parsed url   host: null,
+815 verbose parsed url   port: null,
+815 verbose parsed url   hostname: null,
+815 verbose parsed url   hash: null,
+815 verbose parsed url   search: null,
+815 verbose parsed url   query: null,
+815 verbose parsed url   pathname: '~1.0.0',
+815 verbose parsed url   path: '~1.0.0',
+815 verbose parsed url   href: '~1.0.0' }
+816 verbose addNamed [ 'opn', '~1.0.0' ]
+817 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+818 silly lockFile 008c9731-opn-1-0-0 opn@~1.0.0
+819 verbose lock opn@~1.0.0 /Users/JIECHEN/.npm/008c9731-opn-1-0-0.lock
+820 verbose cache add [ 'osenv@0.1.0', null ]
+821 verbose cache add name=undefined spec="osenv@0.1.0" args=["osenv@0.1.0",null]
+822 verbose parsed url { protocol: null,
+822 verbose parsed url   slashes: null,
+822 verbose parsed url   auth: null,
+822 verbose parsed url   host: null,
+822 verbose parsed url   port: null,
+822 verbose parsed url   hostname: null,
+822 verbose parsed url   hash: null,
+822 verbose parsed url   search: null,
+822 verbose parsed url   query: null,
+822 verbose parsed url   pathname: 'osenv@0.1.0',
+822 verbose parsed url   path: 'osenv@0.1.0',
+822 verbose parsed url   href: 'osenv@0.1.0' }
+823 verbose cache add [ 'p-throttler@0.1.0', null ]
+824 verbose cache add name=undefined spec="p-throttler@0.1.0" args=["p-throttler@0.1.0",null]
+825 verbose parsed url { protocol: null,
+825 verbose parsed url   slashes: null,
+825 verbose parsed url   auth: null,
+825 verbose parsed url   host: null,
+825 verbose parsed url   port: null,
+825 verbose parsed url   hostname: null,
+825 verbose parsed url   hash: null,
+825 verbose parsed url   search: null,
+825 verbose parsed url   query: null,
+825 verbose parsed url   pathname: 'p-throttler@0.1.0',
+825 verbose parsed url   path: 'p-throttler@0.1.0',
+825 verbose parsed url   href: 'p-throttler@0.1.0' }
+826 verbose cache add [ 'promptly@0.2.0', null ]
+827 verbose cache add name=undefined spec="promptly@0.2.0" args=["promptly@0.2.0",null]
+828 verbose parsed url { protocol: null,
+828 verbose parsed url   slashes: null,
+828 verbose parsed url   auth: null,
+828 verbose parsed url   host: null,
+828 verbose parsed url   port: null,
+828 verbose parsed url   hostname: null,
+828 verbose parsed url   hash: null,
+828 verbose parsed url   search: null,
+828 verbose parsed url   query: null,
+828 verbose parsed url   pathname: 'promptly@0.2.0',
+828 verbose parsed url   path: 'promptly@0.2.0',
+828 verbose parsed url   href: 'promptly@0.2.0' }
+829 verbose cache add [ 'q@~1.0.1', null ]
+830 verbose cache add name=undefined spec="q@~1.0.1" args=["q@~1.0.1",null]
+831 verbose parsed url { protocol: null,
+831 verbose parsed url   slashes: null,
+831 verbose parsed url   auth: null,
+831 verbose parsed url   host: null,
+831 verbose parsed url   port: null,
+831 verbose parsed url   hostname: null,
+831 verbose parsed url   hash: null,
+831 verbose parsed url   search: null,
+831 verbose parsed url   query: null,
+831 verbose parsed url   pathname: 'q@~1.0.1',
+831 verbose parsed url   path: 'q@~1.0.1',
+831 verbose parsed url   href: 'q@~1.0.1' }
+832 silly addNameRange { name: 'is-root', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+833 silly addNameRange { name: 'junk', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+834 silly addNameRange { name: 'lockfile', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+835 verbose cache add name="osenv" spec="0.1.0" args=["osenv","0.1.0"]
+836 verbose parsed url { protocol: null,
+836 verbose parsed url   slashes: null,
+836 verbose parsed url   auth: null,
+836 verbose parsed url   host: null,
+836 verbose parsed url   port: null,
+836 verbose parsed url   hostname: null,
+836 verbose parsed url   hash: null,
+836 verbose parsed url   search: null,
+836 verbose parsed url   query: null,
+836 verbose parsed url   pathname: '0.1.0',
+836 verbose parsed url   path: '0.1.0',
+836 verbose parsed url   href: '0.1.0' }
+837 verbose addNamed [ 'osenv', '0.1.0' ]
+838 verbose addNamed [ '0.1.0', '0.1.0' ]
+839 silly lockFile 8f25476a-osenv-0-1-0 osenv@0.1.0
+840 verbose lock osenv@0.1.0 /Users/JIECHEN/.npm/8f25476a-osenv-0-1-0.lock
+841 verbose cache add name="p-throttler" spec="0.1.0" args=["p-throttler","0.1.0"]
+842 verbose parsed url { protocol: null,
+842 verbose parsed url   slashes: null,
+842 verbose parsed url   auth: null,
+842 verbose parsed url   host: null,
+842 verbose parsed url   port: null,
+842 verbose parsed url   hostname: null,
+842 verbose parsed url   hash: null,
+842 verbose parsed url   search: null,
+842 verbose parsed url   query: null,
+842 verbose parsed url   pathname: '0.1.0',
+842 verbose parsed url   path: '0.1.0',
+842 verbose parsed url   href: '0.1.0' }
+843 verbose addNamed [ 'p-throttler', '0.1.0' ]
+844 verbose addNamed [ '0.1.0', '0.1.0' ]
+845 silly lockFile aea1ccf7-p-throttler-0-1-0 p-throttler@0.1.0
+846 verbose lock p-throttler@0.1.0 /Users/JIECHEN/.npm/aea1ccf7-p-throttler-0-1-0.lock
+847 verbose cache add name="promptly" spec="0.2.0" args=["promptly","0.2.0"]
+848 verbose parsed url { protocol: null,
+848 verbose parsed url   slashes: null,
+848 verbose parsed url   auth: null,
+848 verbose parsed url   host: null,
+848 verbose parsed url   port: null,
+848 verbose parsed url   hostname: null,
+848 verbose parsed url   hash: null,
+848 verbose parsed url   search: null,
+848 verbose parsed url   query: null,
+848 verbose parsed url   pathname: '0.2.0',
+848 verbose parsed url   path: '0.2.0',
+848 verbose parsed url   href: '0.2.0' }
+849 verbose addNamed [ 'promptly', '0.2.0' ]
+850 verbose addNamed [ '0.2.0', '0.2.0' ]
+851 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+852 verbose lock promptly@0.2.0 /Users/JIECHEN/.npm/c940dc36-promptly-0-2-0.lock
+853 verbose cache add name="q" spec="~1.0.1" args=["q","~1.0.1"]
+854 verbose parsed url { protocol: null,
+854 verbose parsed url   slashes: null,
+854 verbose parsed url   auth: null,
+854 verbose parsed url   host: null,
+854 verbose parsed url   port: null,
+854 verbose parsed url   hostname: null,
+854 verbose parsed url   hash: null,
+854 verbose parsed url   search: null,
+854 verbose parsed url   query: null,
+854 verbose parsed url   pathname: '~1.0.1',
+854 verbose parsed url   path: '~1.0.1',
+854 verbose parsed url   href: '~1.0.1' }
+855 verbose addNamed [ 'q', '~1.0.1' ]
+856 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+857 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
+858 verbose lock q@~1.0.1 /Users/JIECHEN/.npm/bfcfee2e-q-1-0-1.lock
+859 verbose cache add [ 'request@~2.42.0', null ]
+860 verbose cache add name=undefined spec="request@~2.42.0" args=["request@~2.42.0",null]
+861 verbose parsed url { protocol: null,
+861 verbose parsed url   slashes: null,
+861 verbose parsed url   auth: null,
+861 verbose parsed url   host: null,
+861 verbose parsed url   port: null,
+861 verbose parsed url   hostname: null,
+861 verbose parsed url   hash: null,
+861 verbose parsed url   search: null,
+861 verbose parsed url   query: null,
+861 verbose parsed url   pathname: 'request@~2.42.0',
+861 verbose parsed url   path: 'request@~2.42.0',
+861 verbose parsed url   href: 'request@~2.42.0' }
+862 verbose cache add [ 'request-progress@0.3.0', null ]
+863 verbose cache add name=undefined spec="request-progress@0.3.0" args=["request-progress@0.3.0",null]
+864 verbose parsed url { protocol: null,
+864 verbose parsed url   slashes: null,
+864 verbose parsed url   auth: null,
+864 verbose parsed url   host: null,
+864 verbose parsed url   port: null,
+864 verbose parsed url   hostname: null,
+864 verbose parsed url   hash: null,
+864 verbose parsed url   search: null,
+864 verbose parsed url   query: null,
+864 verbose parsed url   pathname: 'request-progress@0.3.0',
+864 verbose parsed url   path: 'request-progress@0.3.0',
+864 verbose parsed url   href: 'request-progress@0.3.0' }
+865 verbose cache add [ 'retry@0.6.0', null ]
+866 verbose cache add name=undefined spec="retry@0.6.0" args=["retry@0.6.0",null]
+867 verbose parsed url { protocol: null,
+867 verbose parsed url   slashes: null,
+867 verbose parsed url   auth: null,
+867 verbose parsed url   host: null,
+867 verbose parsed url   port: null,
+867 verbose parsed url   hostname: null,
+867 verbose parsed url   hash: null,
+867 verbose parsed url   search: null,
+867 verbose parsed url   query: null,
+867 verbose parsed url   pathname: 'retry@0.6.0',
+867 verbose parsed url   path: 'retry@0.6.0',
+867 verbose parsed url   href: 'retry@0.6.0' }
+868 verbose url raw bower-logger
+869 verbose url resolving [ 'https://registry.npmjs.org/', './bower-logger' ]
+870 verbose url resolved https://registry.npmjs.org/bower-logger
+871 info trying registry request attempt 1 at 20:51:27
+872 verbose etag "26J25Y03ME0YGXYR6KFP08BUT"
+873 http GET https://registry.npmjs.org/bower-logger
+874 silly addNameRange { name: 'lru-cache',
+874 silly addNameRange   range: '>=2.5.0-0 <2.6.0-0',
+874 silly addNameRange   hasData: false }
+875 silly addNameRange { name: 'mout', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+876 silly addNameRange { name: 'nopt', range: '>=3.0.0-0 <3.1.0-0', hasData: false }
+877 silly addNameRange { name: 'opn', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+878 verbose cache add name="request" spec="~2.42.0" args=["request","~2.42.0"]
+879 verbose parsed url { protocol: null,
+879 verbose parsed url   slashes: null,
+879 verbose parsed url   auth: null,
+879 verbose parsed url   host: null,
+879 verbose parsed url   port: null,
+879 verbose parsed url   hostname: null,
+879 verbose parsed url   hash: null,
+879 verbose parsed url   search: null,
+879 verbose parsed url   query: null,
+879 verbose parsed url   pathname: '~2.42.0',
+879 verbose parsed url   path: '~2.42.0',
+879 verbose parsed url   href: '~2.42.0' }
+880 verbose addNamed [ 'request', '~2.42.0' ]
+881 verbose addNamed [ null, '>=2.42.0-0 <2.43.0-0' ]
+882 silly lockFile 8adb197d-request-2-42-0 request@~2.42.0
+883 verbose lock request@~2.42.0 /Users/JIECHEN/.npm/8adb197d-request-2-42-0.lock
+884 verbose cache add name="request-progress" spec="0.3.0" args=["request-progress","0.3.0"]
+885 verbose parsed url { protocol: null,
+885 verbose parsed url   slashes: null,
+885 verbose parsed url   auth: null,
+885 verbose parsed url   host: null,
+885 verbose parsed url   port: null,
+885 verbose parsed url   hostname: null,
+885 verbose parsed url   hash: null,
+885 verbose parsed url   search: null,
+885 verbose parsed url   query: null,
+885 verbose parsed url   pathname: '0.3.0',
+885 verbose parsed url   path: '0.3.0',
+885 verbose parsed url   href: '0.3.0' }
+886 verbose addNamed [ 'request-progress', '0.3.0' ]
+887 verbose addNamed [ '0.3.0', '0.3.0' ]
+888 silly lockFile caf2758e-request-progress-0-3-0 request-progress@0.3.0
+889 verbose lock request-progress@0.3.0 /Users/JIECHEN/.npm/caf2758e-request-progress-0-3-0.lock
+890 verbose cache add [ 'rimraf@~2.2.0', null ]
+891 verbose cache add name=undefined spec="rimraf@~2.2.0" args=["rimraf@~2.2.0",null]
+892 verbose parsed url { protocol: null,
+892 verbose parsed url   slashes: null,
+892 verbose parsed url   auth: null,
+892 verbose parsed url   host: null,
+892 verbose parsed url   port: null,
+892 verbose parsed url   hostname: null,
+892 verbose parsed url   hash: null,
+892 verbose parsed url   search: null,
+892 verbose parsed url   query: null,
+892 verbose parsed url   pathname: 'rimraf@~2.2.0',
+892 verbose parsed url   path: 'rimraf@~2.2.0',
+892 verbose parsed url   href: 'rimraf@~2.2.0' }
+893 verbose cache add [ 'semver@~2.3.0', null ]
+894 verbose cache add name=undefined spec="semver@~2.3.0" args=["semver@~2.3.0",null]
+895 verbose parsed url { protocol: null,
+895 verbose parsed url   slashes: null,
+895 verbose parsed url   auth: null,
+895 verbose parsed url   host: null,
+895 verbose parsed url   port: null,
+895 verbose parsed url   hostname: null,
+895 verbose parsed url   hash: null,
+895 verbose parsed url   search: null,
+895 verbose parsed url   query: null,
+895 verbose parsed url   pathname: 'semver@~2.3.0',
+895 verbose parsed url   path: 'semver@~2.3.0',
+895 verbose parsed url   href: 'semver@~2.3.0' }
+896 verbose cache add [ 'shell-quote@~1.4.1', null ]
+897 verbose cache add name=undefined spec="shell-quote@~1.4.1" args=["shell-quote@~1.4.1",null]
+898 verbose parsed url { protocol: null,
+898 verbose parsed url   slashes: null,
+898 verbose parsed url   auth: null,
+898 verbose parsed url   host: null,
+898 verbose parsed url   port: null,
+898 verbose parsed url   hostname: null,
+898 verbose parsed url   hash: null,
+898 verbose parsed url   search: null,
+898 verbose parsed url   query: null,
+898 verbose parsed url   pathname: 'shell-quote@~1.4.1',
+898 verbose parsed url   path: 'shell-quote@~1.4.1',
+898 verbose parsed url   href: 'shell-quote@~1.4.1' }
+899 verbose cache add [ 'stringify-object@~1.0.0', null ]
+900 verbose cache add name=undefined spec="stringify-object@~1.0.0" args=["stringify-object@~1.0.0",null]
+901 verbose parsed url { protocol: null,
+901 verbose parsed url   slashes: null,
+901 verbose parsed url   auth: null,
+901 verbose parsed url   host: null,
+901 verbose parsed url   port: null,
+901 verbose parsed url   hostname: null,
+901 verbose parsed url   hash: null,
+901 verbose parsed url   search: null,
+901 verbose parsed url   query: null,
+901 verbose parsed url   pathname: 'stringify-object@~1.0.0',
+901 verbose parsed url   path: 'stringify-object@~1.0.0',
+901 verbose parsed url   href: 'stringify-object@~1.0.0' }
+902 verbose cache add [ 'tar-fs@0.5.2', null ]
+903 verbose cache add name=undefined spec="tar-fs@0.5.2" args=["tar-fs@0.5.2",null]
+904 verbose parsed url { protocol: null,
+904 verbose parsed url   slashes: null,
+904 verbose parsed url   auth: null,
+904 verbose parsed url   host: null,
+904 verbose parsed url   port: null,
+904 verbose parsed url   hostname: null,
+904 verbose parsed url   hash: null,
+904 verbose parsed url   search: null,
+904 verbose parsed url   query: null,
+904 verbose parsed url   pathname: 'tar-fs@0.5.2',
+904 verbose parsed url   path: 'tar-fs@0.5.2',
+904 verbose parsed url   href: 'tar-fs@0.5.2' }
+905 verbose cache add name="retry" spec="0.6.0" args=["retry","0.6.0"]
+906 verbose parsed url { protocol: null,
+906 verbose parsed url   slashes: null,
+906 verbose parsed url   auth: null,
+906 verbose parsed url   host: null,
+906 verbose parsed url   port: null,
+906 verbose parsed url   hostname: null,
+906 verbose parsed url   hash: null,
+906 verbose parsed url   search: null,
+906 verbose parsed url   query: null,
+906 verbose parsed url   pathname: '0.6.0',
+906 verbose parsed url   path: '0.6.0',
+906 verbose parsed url   href: '0.6.0' }
+907 verbose addNamed [ 'retry', '0.6.0' ]
+908 verbose addNamed [ '0.6.0', '0.6.0' ]
+909 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+910 verbose lock retry@0.6.0 /Users/JIECHEN/.npm/874cb068-retry-0-6-0.lock
+911 verbose url raw bower-json
+912 verbose url resolving [ 'https://registry.npmjs.org/', './bower-json' ]
+913 verbose url resolved https://registry.npmjs.org/bower-json
+914 info trying registry request attempt 1 at 20:51:27
+915 verbose etag "D3GK5N5E5VATJGD7CWJIOXZ02"
+916 http GET https://registry.npmjs.org/bower-json
+917 verbose url raw bower-registry-client
+918 verbose url resolving [ 'https://registry.npmjs.org/', './bower-registry-client' ]
+919 verbose url resolved https://registry.npmjs.org/bower-registry-client
+920 info trying registry request attempt 1 at 20:51:27
+921 verbose etag "57JULEYXNRZGRKB562BIE4Y02"
+922 http GET https://registry.npmjs.org/bower-registry-client
+923 verbose url raw cardinal
+924 verbose url resolving [ 'https://registry.npmjs.org/', './cardinal' ]
+925 verbose url resolved https://registry.npmjs.org/cardinal
+926 info trying registry request attempt 1 at 20:51:27
+927 verbose etag "7MLTA79B4EI31WBGUTO5PA7C4"
+928 http GET https://registry.npmjs.org/cardinal
+929 silly addNameRange { name: 'q', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+930 verbose cache add name="rimraf" spec="~2.2.0" args=["rimraf","~2.2.0"]
+931 verbose parsed url { protocol: null,
+931 verbose parsed url   slashes: null,
+931 verbose parsed url   auth: null,
+931 verbose parsed url   host: null,
+931 verbose parsed url   port: null,
+931 verbose parsed url   hostname: null,
+931 verbose parsed url   hash: null,
+931 verbose parsed url   search: null,
+931 verbose parsed url   query: null,
+931 verbose parsed url   pathname: '~2.2.0',
+931 verbose parsed url   path: '~2.2.0',
+931 verbose parsed url   href: '~2.2.0' }
+932 verbose addNamed [ 'rimraf', '~2.2.0' ]
+933 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+934 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
+935 verbose lock rimraf@~2.2.0 /Users/JIECHEN/.npm/69dbd68f-rimraf-2-2-0.lock
+936 verbose cache add name="semver" spec="~2.3.0" args=["semver","~2.3.0"]
+937 verbose parsed url { protocol: null,
+937 verbose parsed url   slashes: null,
+937 verbose parsed url   auth: null,
+937 verbose parsed url   host: null,
+937 verbose parsed url   port: null,
+937 verbose parsed url   hostname: null,
+937 verbose parsed url   hash: null,
+937 verbose parsed url   search: null,
+937 verbose parsed url   query: null,
+937 verbose parsed url   pathname: '~2.3.0',
+937 verbose parsed url   path: '~2.3.0',
+937 verbose parsed url   href: '~2.3.0' }
+938 verbose addNamed [ 'semver', '~2.3.0' ]
+939 verbose addNamed [ null, '>=2.3.0-0 <2.4.0-0' ]
+940 silly lockFile 1576312f-semver-2-3-0 semver@~2.3.0
+941 verbose lock semver@~2.3.0 /Users/JIECHEN/.npm/1576312f-semver-2-3-0.lock
+942 verbose cache add name="shell-quote" spec="~1.4.1" args=["shell-quote","~1.4.1"]
+943 verbose parsed url { protocol: null,
+943 verbose parsed url   slashes: null,
+943 verbose parsed url   auth: null,
+943 verbose parsed url   host: null,
+943 verbose parsed url   port: null,
+943 verbose parsed url   hostname: null,
+943 verbose parsed url   hash: null,
+943 verbose parsed url   search: null,
+943 verbose parsed url   query: null,
+943 verbose parsed url   pathname: '~1.4.1',
+943 verbose parsed url   path: '~1.4.1',
+943 verbose parsed url   href: '~1.4.1' }
+944 verbose addNamed [ 'shell-quote', '~1.4.1' ]
+945 verbose addNamed [ null, '>=1.4.1-0 <1.5.0-0' ]
+946 silly lockFile cfbfb4a3-shell-quote-1-4-1 shell-quote@~1.4.1
+947 verbose lock shell-quote@~1.4.1 /Users/JIECHEN/.npm/cfbfb4a3-shell-quote-1-4-1.lock
+948 verbose cache add name="stringify-object" spec="~1.0.0" args=["stringify-object","~1.0.0"]
+949 verbose parsed url { protocol: null,
+949 verbose parsed url   slashes: null,
+949 verbose parsed url   auth: null,
+949 verbose parsed url   host: null,
+949 verbose parsed url   port: null,
+949 verbose parsed url   hostname: null,
+949 verbose parsed url   hash: null,
+949 verbose parsed url   search: null,
+949 verbose parsed url   query: null,
+949 verbose parsed url   pathname: '~1.0.0',
+949 verbose parsed url   path: '~1.0.0',
+949 verbose parsed url   href: '~1.0.0' }
+950 verbose addNamed [ 'stringify-object', '~1.0.0' ]
+951 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+952 silly lockFile 9f0958e2-stringify-object-1-0-0 stringify-object@~1.0.0
+953 verbose lock stringify-object@~1.0.0 /Users/JIECHEN/.npm/9f0958e2-stringify-object-1-0-0.lock
+954 verbose cache add [ 'tmp@0.0.23', null ]
+955 verbose cache add name=undefined spec="tmp@0.0.23" args=["tmp@0.0.23",null]
+956 verbose parsed url { protocol: null,
+956 verbose parsed url   slashes: null,
+956 verbose parsed url   auth: null,
+956 verbose parsed url   host: null,
+956 verbose parsed url   port: null,
+956 verbose parsed url   hostname: null,
+956 verbose parsed url   hash: null,
+956 verbose parsed url   search: null,
+956 verbose parsed url   query: null,
+956 verbose parsed url   pathname: 'tmp@0.0.23',
+956 verbose parsed url   path: 'tmp@0.0.23',
+956 verbose parsed url   href: 'tmp@0.0.23' }
+957 verbose cache add [ 'update-notifier@0.2.0', null ]
+958 verbose cache add name=undefined spec="update-notifier@0.2.0" args=["update-notifier@0.2.0",null]
+959 verbose parsed url { protocol: null,
+959 verbose parsed url   slashes: null,
+959 verbose parsed url   auth: null,
+959 verbose parsed url   host: null,
+959 verbose parsed url   port: null,
+959 verbose parsed url   hostname: null,
+959 verbose parsed url   hash: null,
+959 verbose parsed url   search: null,
+959 verbose parsed url   query: null,
+959 verbose parsed url   pathname: 'update-notifier@0.2.0',
+959 verbose parsed url   path: 'update-notifier@0.2.0',
+959 verbose parsed url   href: 'update-notifier@0.2.0' }
+960 verbose cache add [ 'which@~1.0.5', null ]
+961 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+962 verbose parsed url { protocol: null,
+962 verbose parsed url   slashes: null,
+962 verbose parsed url   auth: null,
+962 verbose parsed url   host: null,
+962 verbose parsed url   port: null,
+962 verbose parsed url   hostname: null,
+962 verbose parsed url   hash: null,
+962 verbose parsed url   search: null,
+962 verbose parsed url   query: null,
+962 verbose parsed url   pathname: 'which@~1.0.5',
+962 verbose parsed url   path: 'which@~1.0.5',
+962 verbose parsed url   href: 'which@~1.0.5' }
+963 verbose cache add name="tar-fs" spec="0.5.2" args=["tar-fs","0.5.2"]
+964 verbose parsed url { protocol: null,
+964 verbose parsed url   slashes: null,
+964 verbose parsed url   auth: null,
+964 verbose parsed url   host: null,
+964 verbose parsed url   port: null,
+964 verbose parsed url   hostname: null,
+964 verbose parsed url   hash: null,
+964 verbose parsed url   search: null,
+964 verbose parsed url   query: null,
+964 verbose parsed url   pathname: '0.5.2',
+964 verbose parsed url   path: '0.5.2',
+964 verbose parsed url   href: '0.5.2' }
+965 verbose addNamed [ 'tar-fs', '0.5.2' ]
+966 verbose addNamed [ '0.5.2', '0.5.2' ]
+967 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+968 verbose lock tar-fs@0.5.2 /Users/JIECHEN/.npm/197bacf4-tar-fs-0-5-2.lock
+969 verbose url raw chalk
+970 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+971 verbose url resolved https://registry.npmjs.org/chalk
+972 info trying registry request attempt 1 at 20:51:27
+973 verbose etag "3N74MMDNB4K92PPTZUBPG5N8R"
+974 http GET https://registry.npmjs.org/chalk
+975 verbose url raw chmodr
+976 verbose url resolving [ 'https://registry.npmjs.org/', './chmodr' ]
+977 verbose url resolved https://registry.npmjs.org/chmodr
+978 info trying registry request attempt 1 at 20:51:27
+979 verbose etag "DB5YY9C9UMJBDK7H24A3LCNIQ"
+980 http GET https://registry.npmjs.org/chmodr
+981 verbose url raw decompress-zip
+982 verbose url resolving [ 'https://registry.npmjs.org/', './decompress-zip' ]
+983 verbose url resolved https://registry.npmjs.org/decompress-zip
+984 info trying registry request attempt 1 at 20:51:27
+985 verbose etag "28YQPGMUU4954JVWJRPU9J3SS"
+986 http GET https://registry.npmjs.org/decompress-zip
+987 verbose url raw fstream
+988 verbose url resolving [ 'https://registry.npmjs.org/', './fstream' ]
+989 verbose url resolved https://registry.npmjs.org/fstream
+990 info trying registry request attempt 1 at 20:51:27
+991 verbose etag "DFZ7AD3NINH7BALDAWIIYD09E"
+992 http GET https://registry.npmjs.org/fstream
+993 silly addNameRange { name: 'request',
+993 silly addNameRange   range: '>=2.42.0-0 <2.43.0-0',
+993 silly addNameRange   hasData: false }
+994 verbose cache add name="tmp" spec="0.0.23" args=["tmp","0.0.23"]
+995 verbose parsed url { protocol: null,
+995 verbose parsed url   slashes: null,
+995 verbose parsed url   auth: null,
+995 verbose parsed url   host: null,
+995 verbose parsed url   port: null,
+995 verbose parsed url   hostname: null,
+995 verbose parsed url   hash: null,
+995 verbose parsed url   search: null,
+995 verbose parsed url   query: null,
+995 verbose parsed url   pathname: '0.0.23',
+995 verbose parsed url   path: '0.0.23',
+995 verbose parsed url   href: '0.0.23' }
+996 verbose addNamed [ 'tmp', '0.0.23' ]
+997 verbose addNamed [ '0.0.23', '0.0.23' ]
+998 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+999 verbose lock tmp@0.0.23 /Users/JIECHEN/.npm/f7638ceb-tmp-0-0-23.lock
+1000 verbose cache add name="update-notifier" spec="0.2.0" args=["update-notifier","0.2.0"]
+1001 verbose parsed url { protocol: null,
+1001 verbose parsed url   slashes: null,
+1001 verbose parsed url   auth: null,
+1001 verbose parsed url   host: null,
+1001 verbose parsed url   port: null,
+1001 verbose parsed url   hostname: null,
+1001 verbose parsed url   hash: null,
+1001 verbose parsed url   search: null,
+1001 verbose parsed url   query: null,
+1001 verbose parsed url   pathname: '0.2.0',
+1001 verbose parsed url   path: '0.2.0',
+1001 verbose parsed url   href: '0.2.0' }
+1002 verbose addNamed [ 'update-notifier', '0.2.0' ]
+1003 verbose addNamed [ '0.2.0', '0.2.0' ]
+1004 silly lockFile 8e5d91fe-update-notifier-0-2-0 update-notifier@0.2.0
+1005 verbose lock update-notifier@0.2.0 /Users/JIECHEN/.npm/8e5d91fe-update-notifier-0-2-0.lock
+1006 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+1007 verbose parsed url { protocol: null,
+1007 verbose parsed url   slashes: null,
+1007 verbose parsed url   auth: null,
+1007 verbose parsed url   host: null,
+1007 verbose parsed url   port: null,
+1007 verbose parsed url   hostname: null,
+1007 verbose parsed url   hash: null,
+1007 verbose parsed url   search: null,
+1007 verbose parsed url   query: null,
+1007 verbose parsed url   pathname: '~1.0.5',
+1007 verbose parsed url   path: '~1.0.5',
+1007 verbose parsed url   href: '~1.0.5' }
+1008 verbose addNamed [ 'which', '~1.0.5' ]
+1009 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+1010 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1011 verbose lock which@~1.0.5 /Users/JIECHEN/.npm/d158d65e-which-1-0-5.lock
+1012 verbose url raw fstream-ignore
+1013 verbose url resolving [ 'https://registry.npmjs.org/', './fstream-ignore' ]
+1014 verbose url resolved https://registry.npmjs.org/fstream-ignore
+1015 info trying registry request attempt 1 at 20:51:27
+1016 verbose etag "6L2Z7N1QMG7EZ6029GS4LMUC8"
+1017 http GET https://registry.npmjs.org/fstream-ignore
+1018 verbose url raw graceful-fs
+1019 verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+1020 verbose url resolved https://registry.npmjs.org/graceful-fs
+1021 info trying registry request attempt 1 at 20:51:27
+1022 verbose etag "C0TX2E25T8F2EMHT7F67GZHZ0"
+1023 http GET https://registry.npmjs.org/graceful-fs
+1024 verbose url raw glob
+1025 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+1026 verbose url resolved https://registry.npmjs.org/glob
+1027 info trying registry request attempt 1 at 20:51:27
+1028 verbose etag "B1U15IZWN0CSIQPXEOEA0ZSNQ"
+1029 http GET https://registry.npmjs.org/glob
+1030 verbose url raw handlebars
+1031 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+1032 verbose url resolved https://registry.npmjs.org/handlebars
+1033 info trying registry request attempt 1 at 20:51:27
+1034 verbose etag "CRWZ71IHPYD3IIGZ0TQ8F76M3"
+1035 http GET https://registry.npmjs.org/handlebars
+1036 verbose url raw inquirer
+1037 verbose url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
+1038 verbose url resolved https://registry.npmjs.org/inquirer
+1039 info trying registry request attempt 1 at 20:51:27
+1040 verbose etag "BW2YBTD3TROLG5BEM24NS9UU"
+1041 http GET https://registry.npmjs.org/inquirer
+1042 silly addNameRange { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
+1043 silly addNameRange { name: 'semver', range: '>=2.3.0-0 <2.4.0-0', hasData: false }
+1044 silly addNameRange { name: 'shell-quote',
+1044 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
+1044 silly addNameRange   hasData: false }
+1045 silly addNameRange { name: 'stringify-object',
+1045 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+1045 silly addNameRange   hasData: false }
+1046 verbose url raw insight
+1047 verbose url resolving [ 'https://registry.npmjs.org/', './insight' ]
+1048 verbose url resolved https://registry.npmjs.org/insight
+1049 info trying registry request attempt 1 at 20:51:27
+1050 verbose etag "1H1LF61DSNE9LJ7EBUITH4DW"
+1051 http GET https://registry.npmjs.org/insight
+1052 verbose url raw is-root
+1053 verbose url resolving [ 'https://registry.npmjs.org/', './is-root' ]
+1054 verbose url resolved https://registry.npmjs.org/is-root
+1055 info trying registry request attempt 1 at 20:51:27
+1056 verbose etag "15RMD7AC2YCBK3VIB69VJCFQ7"
+1057 http GET https://registry.npmjs.org/is-root
+1058 verbose url raw junk
+1059 verbose url resolving [ 'https://registry.npmjs.org/', './junk' ]
+1060 verbose url resolved https://registry.npmjs.org/junk
+1061 info trying registry request attempt 1 at 20:51:27
+1062 verbose etag "DY9SFQP458793K53FX8HJQBJ6"
+1063 http GET https://registry.npmjs.org/junk
+1064 verbose url raw lockfile
+1065 verbose url resolving [ 'https://registry.npmjs.org/', './lockfile' ]
+1066 verbose url resolved https://registry.npmjs.org/lockfile
+1067 info trying registry request attempt 1 at 20:51:27
+1068 verbose etag "4C4UR7TCBN9F92JX2O0P030MF"
+1069 http GET https://registry.npmjs.org/lockfile
+1070 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+1071 verbose url raw lru-cache
+1072 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+1073 verbose url resolved https://registry.npmjs.org/lru-cache
+1074 info trying registry request attempt 1 at 20:51:27
+1075 verbose etag "KVDV8N10IQ351124NYVBW4W8"
+1076 http GET https://registry.npmjs.org/lru-cache
+1077 verbose url raw mkdirp
+1078 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+1079 verbose url resolved https://registry.npmjs.org/mkdirp
+1080 info trying registry request attempt 1 at 20:51:27
+1081 verbose etag "8P1PNVC765QGMUM2P5IGXWBM2"
+1082 http GET https://registry.npmjs.org/mkdirp
+1083 verbose url raw mout
+1084 verbose url resolving [ 'https://registry.npmjs.org/', './mout' ]
+1085 verbose url resolved https://registry.npmjs.org/mout
+1086 info trying registry request attempt 1 at 20:51:27
+1087 verbose etag "CC3PXJ19ZO20KE44FRSZERE1F"
+1088 http GET https://registry.npmjs.org/mout
+1089 verbose url raw nopt
+1090 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+1091 verbose url resolved https://registry.npmjs.org/nopt
+1092 info trying registry request attempt 1 at 20:51:27
+1093 verbose etag "3APQWMR55LBO0RX14VUF99EGQ"
+1094 http GET https://registry.npmjs.org/nopt
+1095 verbose url raw opn
+1096 verbose url resolving [ 'https://registry.npmjs.org/', './opn' ]
+1097 verbose url resolved https://registry.npmjs.org/opn
+1098 info trying registry request attempt 1 at 20:51:27
+1099 verbose etag "98TL7X72Q05Z1SGURV1Q8PH6X"
+1100 http GET https://registry.npmjs.org/opn
+1101 verbose url raw osenv
+1102 verbose url resolving [ 'https://registry.npmjs.org/', './osenv' ]
+1103 verbose url resolved https://registry.npmjs.org/osenv
+1104 info trying registry request attempt 1 at 20:51:27
+1105 verbose etag "2HL01Q14VYUK2UAVWBVXYO38T"
+1106 http GET https://registry.npmjs.org/osenv
+1107 verbose url raw p-throttler
+1108 verbose url resolving [ 'https://registry.npmjs.org/', './p-throttler' ]
+1109 verbose url resolved https://registry.npmjs.org/p-throttler
+1110 info trying registry request attempt 1 at 20:51:27
+1111 verbose etag "6SN50QJ0B2OOR7GEWYUVP2FP9"
+1112 http GET https://registry.npmjs.org/p-throttler
+1113 verbose url raw promptly
+1114 verbose url resolving [ 'https://registry.npmjs.org/', './promptly' ]
+1115 verbose url resolved https://registry.npmjs.org/promptly
+1116 info trying registry request attempt 1 at 20:51:27
+1117 verbose etag "DZ7J6U8IEFIWXAUR4K1X4KI0Q"
+1118 http GET https://registry.npmjs.org/promptly
+1119 verbose url raw q
+1120 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+1121 verbose url resolved https://registry.npmjs.org/q
+1122 info trying registry request attempt 1 at 20:51:27
+1123 verbose etag "AAI1EL00XEK7GNL73JHI3LWOL"
+1124 http GET https://registry.npmjs.org/q
+1125 verbose url raw request-progress
+1126 verbose url resolving [ 'https://registry.npmjs.org/', './request-progress' ]
+1127 verbose url resolved https://registry.npmjs.org/request-progress
+1128 info trying registry request attempt 1 at 20:51:27
+1129 verbose etag "C7TWHHE5K6KUIMAULUKS4TG5J"
+1130 http GET https://registry.npmjs.org/request-progress
+1131 verbose url raw request
+1132 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+1133 verbose url resolved https://registry.npmjs.org/request
+1134 info trying registry request attempt 1 at 20:51:27
+1135 verbose etag "CP03IX5E3URAL0Z3E373UKIA4"
+1136 http GET https://registry.npmjs.org/request
+1137 verbose url raw retry
+1138 verbose url resolving [ 'https://registry.npmjs.org/', './retry' ]
+1139 verbose url resolved https://registry.npmjs.org/retry
+1140 info trying registry request attempt 1 at 20:51:27
+1141 verbose etag "B6ALEGYQTDC1RNL97Q22S0PCU"
+1142 http GET https://registry.npmjs.org/retry
+1143 verbose url raw rimraf
+1144 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+1145 verbose url resolved https://registry.npmjs.org/rimraf
+1146 info trying registry request attempt 1 at 20:51:27
+1147 verbose etag "2VJBW4DAKGMJ1VL8JDA3USTCA"
+1148 http GET https://registry.npmjs.org/rimraf
+1149 verbose url raw semver
+1150 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+1151 verbose url resolved https://registry.npmjs.org/semver
+1152 info trying registry request attempt 1 at 20:51:27
+1153 verbose etag "6B6V73Z8Z2VDWLIDVGMRWG8PJ"
+1154 http GET https://registry.npmjs.org/semver
+1155 verbose url raw shell-quote
+1156 verbose url resolving [ 'https://registry.npmjs.org/', './shell-quote' ]
+1157 verbose url resolved https://registry.npmjs.org/shell-quote
+1158 info trying registry request attempt 1 at 20:51:27
+1159 verbose etag "B4YWGZF2X89DHXM5VB9853XDP"
+1160 http GET https://registry.npmjs.org/shell-quote
+1161 verbose url raw stringify-object
+1162 verbose url resolving [ 'https://registry.npmjs.org/', './stringify-object' ]
+1163 verbose url resolved https://registry.npmjs.org/stringify-object
+1164 info trying registry request attempt 1 at 20:51:27
+1165 verbose etag "365GZDAVOFVESVYCT2LTLH12E"
+1166 http GET https://registry.npmjs.org/stringify-object
+1167 verbose url raw tar-fs
+1168 verbose url resolving [ 'https://registry.npmjs.org/', './tar-fs' ]
+1169 verbose url resolved https://registry.npmjs.org/tar-fs
+1170 info trying registry request attempt 1 at 20:51:27
+1171 verbose etag "16XXVOF89XFKPMS52W8RTKWWP"
+1172 http GET https://registry.npmjs.org/tar-fs
+1173 verbose url raw tmp
+1174 verbose url resolving [ 'https://registry.npmjs.org/', './tmp' ]
+1175 verbose url resolved https://registry.npmjs.org/tmp
+1176 info trying registry request attempt 1 at 20:51:27
+1177 verbose etag "A64MKG9P43CA5HNBX4TQFUJ8H"
+1178 http GET https://registry.npmjs.org/tmp
+1179 verbose url raw update-notifier
+1180 verbose url resolving [ 'https://registry.npmjs.org/', './update-notifier' ]
+1181 verbose url resolved https://registry.npmjs.org/update-notifier
+1182 info trying registry request attempt 1 at 20:51:27
+1183 verbose etag "ER837ESCAMI9VP7OLCG4JPMWK"
+1184 http GET https://registry.npmjs.org/update-notifier
+1185 verbose url raw which
+1186 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+1187 verbose url resolved https://registry.npmjs.org/which
+1188 info trying registry request attempt 1 at 20:51:27
+1189 verbose etag "2PVM5KIGBAIID752RG9DIYND4"
+1190 http GET https://registry.npmjs.org/which
+1191 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/components/_entity-service.js
+1192 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_kr.json
+1193 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_ca.json
+1194 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_de.json
+1195 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_en.json
+1196 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_es.json
+1197 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_fr.json
+1198 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_da.json
+1199 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_pl.json
+1200 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_pt-br.json
+1201 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_pt-ru.json
+1202 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_pt-sv.json
+1203 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_pt-tr.json
+1204 silly gunzTarPerm extractEntry entity/templates/src/main/webapp/i18n/_entity_pt-zh-tw.json
+1205 silly gunzTarPerm extractEntry entity/templates/src/test/java/package/web/rest/_EntityResourceTest.java
+1206 silly gunzTarPerm extractEntry heroku/index.js
+1207 silly gunzTarPerm extractEntry heroku/USAGE
+1208 silly gunzTarPerm extractEntry heroku/templates/Procfile
+1209 silly gunzTarPerm extractEntry heroku/templates/slugignore
+1210 silly gunzTarPerm extractEntry heroku/templates/src/main/java/package/config/_HerokuDatabaseConfiguration.java
+1211 silly gunzTarPerm extractEntry heroku/templates/system.properties
+1212 silly gunzTarPerm extractEntry languages/index.js
+1213 silly gunzTarPerm extractEntry languages/USAGE
+1214 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_pl.properties
+1215 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_ca.properties
+1216 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_de.properties
+1217 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_es.properties
+1218 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_kr.properties
+1219 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_da.properties
+1220 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_pt_br.properties
+1221 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_ru.properties
+1222 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_sv.properties
+1223 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_tr.properties
+1224 silly gunzTarPerm extractEntry languages/templates/src/main/resources/i18n/_messages_zh_tw.properties
+1225 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/logs.json
+1226 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/_global.json
+1227 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/audits.json
+1228 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/configuration.json
+1229 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/error.json
+1230 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/health.json
+1231 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/language.json
+1232 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/login.json
+1233 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/activate.json
+1234 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/main.json
+1235 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/metrics.json
+1236 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/password.json
+1237 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/register.json
+1238 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/sessions.json
+1239 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/settings.json
+1240 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pl/tracker.json
+1241 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/logs.json
+1242 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/_global.json
+1243 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/audits.json
+1244 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/configuration.json
+1245 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/error.json
+1246 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/health.json
+1247 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/language.json
+1248 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/login.json
+1249 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/activate.json
+1250 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/main.json
+1251 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/metrics.json
+1252 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/password.json
+1253 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/register.json
+1254 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/sessions.json
+1255 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/settings.json
+1256 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ca/tracker.json
+1257 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/logs.json
+1258 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/_global.json
+1259 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/audits.json
+1260 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/configuration.json
+1261 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/error.json
+1262 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/health.json
+1263 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/language.json
+1264 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/login.json
+1265 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/activate.json
+1266 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/main.json
+1267 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/metrics.json
+1268 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/password.json
+1269 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/register.json
+1270 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/sessions.json
+1271 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/settings.json
+1272 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/de/tracker.json
+1273 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/logs.json
+1274 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/_global.json
+1275 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/audits.json
+1276 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/configuration.json
+1277 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/error.json
+1278 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/health.json
+1279 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/language.json
+1280 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/login.json
+1281 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/activate.json
+1282 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/main.json
+1283 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/metrics.json
+1284 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/password.json
+1285 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/register.json
+1286 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/sessions.json
+1287 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/settings.json
+1288 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/es/tracker.json
+1289 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/logs.json
+1290 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/_global.json
+1291 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/audits.json
+1292 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/configuration.json
+1293 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/error.json
+1294 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/health.json
+1295 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/language.json
+1296 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/login.json
+1297 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/activate.json
+1298 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/main.json
+1299 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/metrics.json
+1300 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/password.json
+1301 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/register.json
+1302 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/sessions.json
+1303 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/settings.json
+1304 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/kr/tracker.json
+1305 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/logs.json
+1306 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/_global.json
+1307 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/audits.json
+1308 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/configuration.json
+1309 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/error.json
+1310 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/health.json
+1311 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/language.json
+1312 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/login.json
+1313 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/activate.json
+1314 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/main.json
+1315 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/metrics.json
+1316 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/password.json
+1317 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/register.json
+1318 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/sessions.json
+1319 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/settings.json
+1320 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/da/tracker.json
+1321 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/logs.json
+1322 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/_global.json
+1323 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/audits.json
+1324 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/configuration.json
+1325 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/error.json
+1326 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/health.json
+1327 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/language.json
+1328 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/login.json
+1329 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/activate.json
+1330 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/main.json
+1331 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/metrics.json
+1332 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/password.json
+1333 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/register.json
+1334 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/sessions.json
+1335 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/settings.json
+1336 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/pt-br/tracker.json
+1337 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/logs.json
+1338 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/_global.json
+1339 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/audits.json
+1340 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/configuration.json
+1341 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/error.json
+1342 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/health.json
+1343 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/language.json
+1344 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/login.json
+1345 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/activate.json
+1346 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/main.json
+1347 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/metrics.json
+1348 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/password.json
+1349 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/register.json
+1350 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/sessions.json
+1351 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/settings.json
+1352 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/ru/tracker.json
+1353 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/logs.json
+1354 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/_global.json
+1355 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/audits.json
+1356 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/configuration.json
+1357 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/error.json
+1358 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/health.json
+1359 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/language.json
+1360 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/login.json
+1361 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/activate.json
+1362 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/main.json
+1363 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/metrics.json
+1364 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/password.json
+1365 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/register.json
+1366 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/sessions.json
+1367 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/settings.json
+1368 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/sv/tracker.json
+1369 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/logs.json
+1370 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/_global.json
+1371 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/audits.json
+1372 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/configuration.json
+1373 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/error.json
+1374 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/health.json
+1375 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/language.json
+1376 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/login.json
+1377 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/activate.json
+1378 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/main.json
+1379 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/metrics.json
+1380 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/password.json
+1381 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/register.json
+1382 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/sessions.json
+1383 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/settings.json
+1384 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/tr/tracker.json
+1385 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/logs.json
+1386 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/_global.json
+1387 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/audits.json
+1388 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/configuration.json
+1389 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/error.json
+1390 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/health.json
+1391 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/language.json
+1392 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/login.json
+1393 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/activate.json
+1394 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/main.json
+1395 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/metrics.json
+1396 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/password.json
+1397 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/register.json
+1398 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/sessions.json
+1399 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/settings.json
+1400 silly gunzTarPerm extractEntry languages/templates/src/main/webapp/i18n/zh-tw/tracker.json
+1401 silly gunzTarPerm extractEntry test/test-creation.js
+1402 silly gunzTarPerm extractEntry test/test-load.js
+1403 silly gunzTarPerm extractEntry openshift/index.js
+1404 silly gunzTarPerm extractEntry openshift/USAGE
+1405 silly gunzTarPerm extractEntry openshift/templates/openshift/action_hooks/_build
+1406 silly gunzTarPerm extractEntry openshift/templates/openshift/action_hooks/_start
+1407 silly gunzTarPerm extractEntry openshift/templates/openshift/action_hooks/pre_build
+1408 silly gunzTarPerm extractEntry openshift/templates/openshift/action_hooks/stop
+1409 silly gunzTarPerm extractEntry .travis.yml
+1410 silly gunzTarPerm extractEntry service/index.js
+1411 silly gunzTarPerm extractEntry service/USAGE
+1412 silly gunzTarPerm extractEntry service/templates/src/main/java/package/service/_Service.java
+1413 silly gunzTarPerm extractEntry service/templates/src/main/java/package/service/impl/_ServiceImpl.java
+1414 silly gunzTarPerm extractEntry cloudfoundry/index.js
+1415 silly gunzTarPerm extractEntry cloudfoundry/USAGE
+1416 silly gunzTarPerm extractEntry cloudfoundry/templates/_manifest.yml
+1417 http 304 https://registry.npmjs.org/archy
+1418 silly registry.get cb [ 304,
+1418 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1418 silly registry.get     server: 'Apache',
+1418 silly registry.get     via: '1.1 varnish',
+1418 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1418 silly registry.get     'cache-control': 'max-age=60',
+1418 silly registry.get     etag: '"E4I5FL22W2GGOMN8HHDD9JJAV"',
+1418 silly registry.get     age: '0',
+1418 silly registry.get     'x-served-by': 'cache-ord1730-ORD',
+1418 silly registry.get     'x-cache': 'HIT',
+1418 silly registry.get     'x-cache-hits': '1',
+1418 silly registry.get     'x-timer': 'S1422240688.070835,VS0,VE0',
+1418 silly registry.get     vary: 'Accept',
+1418 silly registry.get     'content-length': '0',
+1418 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1418 silly registry.get     connection: 'Keep-Alive' } ]
+1419 verbose etag archy from cache
+1420 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+1421 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+1422 http 304 https://registry.npmjs.org/abbrev
+1423 silly registry.get cb [ 304,
+1423 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1423 silly registry.get     server: 'Apache',
+1423 silly registry.get     via: '1.1 varnish',
+1423 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1423 silly registry.get     'cache-control': 'max-age=60',
+1423 silly registry.get     etag: '"44V0EGD4ZJQEY20FUU97O7S8K"',
+1423 silly registry.get     age: '36',
+1423 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+1423 silly registry.get     'x-cache': 'HIT',
+1423 silly registry.get     'x-cache-hits': '1',
+1423 silly registry.get     'x-timer': 'S1422240688.071094,VS0,VE0',
+1423 silly registry.get     vary: 'Accept',
+1423 silly registry.get     'content-length': '0',
+1423 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1423 silly registry.get     connection: 'Keep-Alive' } ]
+1424 verbose etag abbrev from cache
+1425 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: true }
+1426 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
+1427 verbose addNamed [ 'abbrev', '1.0.5' ]
+1428 verbose addNamed [ '1.0.5', '1.0.5' ]
+1429 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+1430 verbose lock abbrev@1.0.5 /Users/JIECHEN/.npm/55d90b2f-abbrev-1-0-5.lock
+1431 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+1432 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+1433 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+1434 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+1435 http 304 https://registry.npmjs.org/bower-json
+1436 silly registry.get cb [ 304,
+1436 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1436 silly registry.get     server: 'Apache',
+1436 silly registry.get     via: '1.1 varnish',
+1436 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1436 silly registry.get     'cache-control': 'max-age=60',
+1436 silly registry.get     etag: '"D3GK5N5E5VATJGD7CWJIOXZ02"',
+1436 silly registry.get     age: '0',
+1436 silly registry.get     'x-served-by': 'cache-ord1730-ORD',
+1436 silly registry.get     'x-cache': 'HIT',
+1436 silly registry.get     'x-cache-hits': '1',
+1436 silly registry.get     'x-timer': 'S1422240688.128702,VS0,VE28',
+1436 silly registry.get     vary: 'Accept',
+1436 silly registry.get     'content-length': '0',
+1436 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1436 silly registry.get     connection: 'Keep-Alive' } ]
+1437 verbose etag bower-json from cache
+1438 silly addNameRange number 2 { name: 'bower-json',
+1438 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1438 silly addNameRange   hasData: true }
+1439 silly addNameRange versions [ 'bower-json', [ '0.1.0-rc.1', '0.2.0', '0.3.0', '0.4.0' ] ]
+1440 verbose addNamed [ 'bower-json', '0.4.0' ]
+1441 verbose addNamed [ '0.4.0', '0.4.0' ]
+1442 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1443 verbose lock bower-json@0.4.0 /Users/JIECHEN/.npm/d39b341c-bower-json-0-4-0.lock
+1444 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1445 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1446 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+1447 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+1448 http 304 https://registry.npmjs.org/bower-logger
+1449 silly registry.get cb [ 304,
+1449 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1449 silly registry.get     server: 'Apache',
+1449 silly registry.get     via: '1.1 varnish',
+1449 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1449 silly registry.get     'cache-control': 'max-age=60',
+1449 silly registry.get     etag: '"26J25Y03ME0YGXYR6KFP08BUT"',
+1449 silly registry.get     age: '0',
+1449 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+1449 silly registry.get     'x-cache': 'HIT',
+1449 silly registry.get     'x-cache-hits': '1',
+1449 silly registry.get     'x-timer': 'S1422240688.127415,VS0,VE63',
+1449 silly registry.get     vary: 'Accept',
+1449 silly registry.get     'content-length': '0',
+1449 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1449 silly registry.get     connection: 'Keep-Alive' } ]
+1450 verbose etag bower-logger from cache
+1451 silly addNameRange number 2 { name: 'bower-logger',
+1451 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+1451 silly addNameRange   hasData: true }
+1452 silly addNameRange versions [ 'bower-logger',
+1452 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+1453 verbose addNamed [ 'bower-logger', '0.2.2' ]
+1454 verbose addNamed [ '0.2.2', '0.2.2' ]
+1455 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1456 verbose lock bower-logger@0.2.2 /Users/JIECHEN/.npm/4a38f198-bower-logger-0-2-2.lock
+1457 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1458 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1459 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+1460 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+1461 silly lockFile da58c5c7--node-modules-generator-jhipster tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/generator-jhipster
+1462 silly lockFile da58c5c7--node-modules-generator-jhipster tar:///Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/generator-jhipster
+1463 silly lockFile 5d01fa3d-rator-jhipster-2-0-0-package-tgz tar:///Users/JIECHEN/.npm/generator-jhipster/2.0.0/package.tgz
+1464 silly lockFile 5d01fa3d-rator-jhipster-2-0-0-package-tgz tar:///Users/JIECHEN/.npm/generator-jhipster/2.0.0/package.tgz
+1465 info preinstall generator-jhipster@2.0.0
+1466 verbose readDependencies using package.json deps
+1467 verbose readDependencies using package.json deps
+1468 verbose cache add [ 'yeoman-generator@0.17.7', null ]
+1469 verbose cache add name=undefined spec="yeoman-generator@0.17.7" args=["yeoman-generator@0.17.7",null]
+1470 verbose parsed url { protocol: null,
+1470 verbose parsed url   slashes: null,
+1470 verbose parsed url   auth: null,
+1470 verbose parsed url   host: null,
+1470 verbose parsed url   port: null,
+1470 verbose parsed url   hostname: null,
+1470 verbose parsed url   hash: null,
+1470 verbose parsed url   search: null,
+1470 verbose parsed url   query: null,
+1470 verbose parsed url   pathname: 'yeoman-generator@0.17.7',
+1470 verbose parsed url   path: 'yeoman-generator@0.17.7',
+1470 verbose parsed url   href: 'yeoman-generator@0.17.7' }
+1471 verbose cache add [ 'cheerio@0.17.0', null ]
+1472 verbose cache add name=undefined spec="cheerio@0.17.0" args=["cheerio@0.17.0",null]
+1473 verbose parsed url { protocol: null,
+1473 verbose parsed url   slashes: null,
+1473 verbose parsed url   auth: null,
+1473 verbose parsed url   host: null,
+1473 verbose parsed url   port: null,
+1473 verbose parsed url   hostname: null,
+1473 verbose parsed url   hash: null,
+1473 verbose parsed url   search: null,
+1473 verbose parsed url   query: null,
+1473 verbose parsed url   pathname: 'cheerio@0.17.0',
+1473 verbose parsed url   path: 'cheerio@0.17.0',
+1473 verbose parsed url   href: 'cheerio@0.17.0' }
+1474 verbose cache add name="yeoman-generator" spec="0.17.7" args=["yeoman-generator","0.17.7"]
+1475 verbose parsed url { protocol: null,
+1475 verbose parsed url   slashes: null,
+1475 verbose parsed url   auth: null,
+1475 verbose parsed url   host: null,
+1475 verbose parsed url   port: null,
+1475 verbose parsed url   hostname: null,
+1475 verbose parsed url   hash: null,
+1475 verbose parsed url   search: null,
+1475 verbose parsed url   query: null,
+1475 verbose parsed url   pathname: '0.17.7',
+1475 verbose parsed url   path: '0.17.7',
+1475 verbose parsed url   href: '0.17.7' }
+1476 verbose addNamed [ 'yeoman-generator', '0.17.7' ]
+1477 verbose addNamed [ '0.17.7', '0.17.7' ]
+1478 silly lockFile b53dd7e0-yeoman-generator-0-17-7 yeoman-generator@0.17.7
+1479 verbose lock yeoman-generator@0.17.7 /Users/JIECHEN/.npm/b53dd7e0-yeoman-generator-0-17-7.lock
+1480 verbose cache add [ 'underscore.string@2.3.3', null ]
+1481 verbose cache add name=undefined spec="underscore.string@2.3.3" args=["underscore.string@2.3.3",null]
+1482 verbose parsed url { protocol: null,
+1482 verbose parsed url   slashes: null,
+1482 verbose parsed url   auth: null,
+1482 verbose parsed url   host: null,
+1482 verbose parsed url   port: null,
+1482 verbose parsed url   hostname: null,
+1482 verbose parsed url   hash: null,
+1482 verbose parsed url   search: null,
+1482 verbose parsed url   query: null,
+1482 verbose parsed url   pathname: 'underscore.string@2.3.3',
+1482 verbose parsed url   path: 'underscore.string@2.3.3',
+1482 verbose parsed url   href: 'underscore.string@2.3.3' }
+1483 verbose cache add name="cheerio" spec="0.17.0" args=["cheerio","0.17.0"]
+1484 verbose parsed url { protocol: null,
+1484 verbose parsed url   slashes: null,
+1484 verbose parsed url   auth: null,
+1484 verbose parsed url   host: null,
+1484 verbose parsed url   port: null,
+1484 verbose parsed url   hostname: null,
+1484 verbose parsed url   hash: null,
+1484 verbose parsed url   search: null,
+1484 verbose parsed url   query: null,
+1484 verbose parsed url   pathname: '0.17.0',
+1484 verbose parsed url   path: '0.17.0',
+1484 verbose parsed url   href: '0.17.0' }
+1485 verbose addNamed [ 'cheerio', '0.17.0' ]
+1486 verbose addNamed [ '0.17.0', '0.17.0' ]
+1487 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+1488 verbose lock cheerio@0.17.0 /Users/JIECHEN/.npm/26cb7f10-cheerio-0-17-0.lock
+1489 verbose cache add [ 'shelljs@0.3.0', null ]
+1490 verbose cache add name=undefined spec="shelljs@0.3.0" args=["shelljs@0.3.0",null]
+1491 verbose parsed url { protocol: null,
+1491 verbose parsed url   slashes: null,
+1491 verbose parsed url   auth: null,
+1491 verbose parsed url   host: null,
+1491 verbose parsed url   port: null,
+1491 verbose parsed url   hostname: null,
+1491 verbose parsed url   hash: null,
+1491 verbose parsed url   search: null,
+1491 verbose parsed url   query: null,
+1491 verbose parsed url   pathname: 'shelljs@0.3.0',
+1491 verbose parsed url   path: 'shelljs@0.3.0',
+1491 verbose parsed url   href: 'shelljs@0.3.0' }
+1492 verbose cache add name="underscore.string" spec="2.3.3" args=["underscore.string","2.3.3"]
+1493 verbose parsed url { protocol: null,
+1493 verbose parsed url   slashes: null,
+1493 verbose parsed url   auth: null,
+1493 verbose parsed url   host: null,
+1493 verbose parsed url   port: null,
+1493 verbose parsed url   hostname: null,
+1493 verbose parsed url   hash: null,
+1493 verbose parsed url   search: null,
+1493 verbose parsed url   query: null,
+1493 verbose parsed url   pathname: '2.3.3',
+1493 verbose parsed url   path: '2.3.3',
+1493 verbose parsed url   href: '2.3.3' }
+1494 verbose addNamed [ 'underscore.string', '2.3.3' ]
+1495 verbose addNamed [ '2.3.3', '2.3.3' ]
+1496 silly lockFile a37b16cb-underscore-string-2-3-3 underscore.string@2.3.3
+1497 verbose lock underscore.string@2.3.3 /Users/JIECHEN/.npm/a37b16cb-underscore-string-2-3-3.lock
+1498 verbose cache add name="shelljs" spec="0.3.0" args=["shelljs","0.3.0"]
+1499 verbose parsed url { protocol: null,
+1499 verbose parsed url   slashes: null,
+1499 verbose parsed url   auth: null,
+1499 verbose parsed url   host: null,
+1499 verbose parsed url   port: null,
+1499 verbose parsed url   hostname: null,
+1499 verbose parsed url   hash: null,
+1499 verbose parsed url   search: null,
+1499 verbose parsed url   query: null,
+1499 verbose parsed url   pathname: '0.3.0',
+1499 verbose parsed url   path: '0.3.0',
+1499 verbose parsed url   href: '0.3.0' }
+1500 verbose addNamed [ 'shelljs', '0.3.0' ]
+1501 verbose addNamed [ '0.3.0', '0.3.0' ]
+1502 silly lockFile 7d3918b1-shelljs-0-3-0 shelljs@0.3.0
+1503 verbose lock shelljs@0.3.0 /Users/JIECHEN/.npm/7d3918b1-shelljs-0-3-0.lock
+1504 verbose cache add [ 'chalk@0.5.1', null ]
+1505 verbose cache add name=undefined spec="chalk@0.5.1" args=["chalk@0.5.1",null]
+1506 verbose parsed url { protocol: null,
+1506 verbose parsed url   slashes: null,
+1506 verbose parsed url   auth: null,
+1506 verbose parsed url   host: null,
+1506 verbose parsed url   port: null,
+1506 verbose parsed url   hostname: null,
+1506 verbose parsed url   hash: null,
+1506 verbose parsed url   search: null,
+1506 verbose parsed url   query: null,
+1506 verbose parsed url   pathname: 'chalk@0.5.1',
+1506 verbose parsed url   path: 'chalk@0.5.1',
+1506 verbose parsed url   href: 'chalk@0.5.1' }
+1507 verbose cache add name="chalk" spec="0.5.1" args=["chalk","0.5.1"]
+1508 verbose parsed url { protocol: null,
+1508 verbose parsed url   slashes: null,
+1508 verbose parsed url   auth: null,
+1508 verbose parsed url   host: null,
+1508 verbose parsed url   port: null,
+1508 verbose parsed url   hostname: null,
+1508 verbose parsed url   hash: null,
+1508 verbose parsed url   search: null,
+1508 verbose parsed url   query: null,
+1508 verbose parsed url   pathname: '0.5.1',
+1508 verbose parsed url   path: '0.5.1',
+1508 verbose parsed url   href: '0.5.1' }
+1509 verbose addNamed [ 'chalk', '0.5.1' ]
+1510 verbose addNamed [ '0.5.1', '0.5.1' ]
+1511 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+1512 verbose lock chalk@0.5.1 /Users/JIECHEN/.npm/c28973bb-chalk-0-5-1.lock
+1513 verbose cache add [ 'insight@0.4.3', null ]
+1514 verbose cache add name=undefined spec="insight@0.4.3" args=["insight@0.4.3",null]
+1515 verbose parsed url { protocol: null,
+1515 verbose parsed url   slashes: null,
+1515 verbose parsed url   auth: null,
+1515 verbose parsed url   host: null,
+1515 verbose parsed url   port: null,
+1515 verbose parsed url   hostname: null,
+1515 verbose parsed url   hash: null,
+1515 verbose parsed url   search: null,
+1515 verbose parsed url   query: null,
+1515 verbose parsed url   pathname: 'insight@0.4.3',
+1515 verbose parsed url   path: 'insight@0.4.3',
+1515 verbose parsed url   href: 'insight@0.4.3' }
+1516 verbose cache add name="insight" spec="0.4.3" args=["insight","0.4.3"]
+1517 verbose parsed url { protocol: null,
+1517 verbose parsed url   slashes: null,
+1517 verbose parsed url   auth: null,
+1517 verbose parsed url   host: null,
+1517 verbose parsed url   port: null,
+1517 verbose parsed url   hostname: null,
+1517 verbose parsed url   hash: null,
+1517 verbose parsed url   search: null,
+1517 verbose parsed url   query: null,
+1517 verbose parsed url   pathname: '0.4.3',
+1517 verbose parsed url   path: '0.4.3',
+1517 verbose parsed url   href: '0.4.3' }
+1518 verbose addNamed [ 'insight', '0.4.3' ]
+1519 verbose url raw yeoman-generator
+1520 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-generator' ]
+1521 verbose url resolved https://registry.npmjs.org/yeoman-generator
+1522 info trying registry request attempt 1 at 20:51:28
+1523 verbose etag "2OGW7MLLX7UHL2AOWW0CSNWOA"
+1524 http GET https://registry.npmjs.org/yeoman-generator
+1525 verbose url raw cheerio
+1526 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio' ]
+1527 verbose url resolved https://registry.npmjs.org/cheerio
+1528 info trying registry request attempt 1 at 20:51:28
+1529 verbose etag "DFMMEV5ZYZ8K2N50B01LM0I7W"
+1530 http GET https://registry.npmjs.org/cheerio
+1531 verbose url raw underscore.string
+1532 verbose url resolving [ 'https://registry.npmjs.org/', './underscore.string' ]
+1533 verbose url resolved https://registry.npmjs.org/underscore.string
+1534 info trying registry request attempt 1 at 20:51:28
+1535 verbose etag "CA0FWE00ZSIV12SKRK7ZTP37G"
+1536 http GET https://registry.npmjs.org/underscore.string
+1537 verbose url raw shelljs
+1538 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+1539 verbose url resolved https://registry.npmjs.org/shelljs
+1540 info trying registry request attempt 1 at 20:51:28
+1541 verbose etag "3USLV7LWLZIN3QM2VB75RERYU"
+1542 http GET https://registry.npmjs.org/shelljs
+1543 http 304 https://registry.npmjs.org/chalk
+1544 silly registry.get cb [ 304,
+1544 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1544 silly registry.get     server: 'Apache',
+1544 silly registry.get     via: '1.1 varnish',
+1544 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1544 silly registry.get     'cache-control': 'max-age=60',
+1544 silly registry.get     etag: '"3N74MMDNB4K92PPTZUBPG5N8R"',
+1544 silly registry.get     age: '54',
+1544 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+1544 silly registry.get     'x-cache': 'HIT',
+1544 silly registry.get     'x-cache-hits': '1',
+1544 silly registry.get     'x-timer': 'S1422240688.258475,VS0,VE0',
+1544 silly registry.get     vary: 'Accept',
+1544 silly registry.get     'content-length': '0',
+1544 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1544 silly registry.get     connection: 'Keep-Alive' } ]
+1545 verbose etag chalk from cache
+1546 verbose url raw chalk
+1547 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+1548 verbose url resolved https://registry.npmjs.org/chalk
+1549 info trying registry request attempt 1 at 20:51:28
+1550 verbose etag "3N74MMDNB4K92PPTZUBPG5N8R"
+1551 http GET https://registry.npmjs.org/chalk
+1552 http 304 https://registry.npmjs.org/bower-registry-client
+1553 silly registry.get cb [ 304,
+1553 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1553 silly registry.get     server: 'Apache',
+1553 silly registry.get     via: '1.1 varnish',
+1553 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1553 silly registry.get     'cache-control': 'max-age=60',
+1553 silly registry.get     etag: '"57JULEYXNRZGRKB562BIE4Y02"',
+1553 silly registry.get     age: '0',
+1553 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+1553 silly registry.get     'x-cache': 'HIT',
+1553 silly registry.get     'x-cache-hits': '1',
+1553 silly registry.get     'x-timer': 'S1422240688.129073,VS0,VE131',
+1553 silly registry.get     vary: 'Accept',
+1553 silly registry.get     'content-length': '0',
+1553 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1553 silly registry.get     connection: 'Keep-Alive' } ]
+1554 verbose etag bower-registry-client from cache
+1555 silly addNameRange number 2 { name: 'bower-registry-client',
+1555 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+1555 silly addNameRange   hasData: true }
+1556 silly addNameRange versions [ 'bower-registry-client',
+1556 silly addNameRange   [ '0.1.0-rc.1',
+1556 silly addNameRange     '0.1.0-rc.2',
+1556 silly addNameRange     '0.1.0-rc.3',
+1556 silly addNameRange     '0.1.0-rc.4',
+1556 silly addNameRange     '0.1.0-rc.5',
+1556 silly addNameRange     '0.1.0',
+1556 silly addNameRange     '0.1.1',
+1556 silly addNameRange     '0.1.2',
+1556 silly addNameRange     '0.1.3',
+1556 silly addNameRange     '0.1.4',
+1556 silly addNameRange     '0.1.5',
+1556 silly addNameRange     '0.1.6',
+1556 silly addNameRange     '0.2.0',
+1556 silly addNameRange     '0.2.1',
+1556 silly addNameRange     '0.2.2',
+1556 silly addNameRange     '0.2.3' ] ]
+1557 verbose addNamed [ 'bower-registry-client', '0.2.3' ]
+1558 verbose addNamed [ '0.2.3', '0.2.3' ]
+1559 silly lockFile e6aeabba-bower-registry-client-0-2-3 bower-registry-client@0.2.3
+1560 verbose lock bower-registry-client@0.2.3 /Users/JIECHEN/.npm/e6aeabba-bower-registry-client-0-2-3.lock
+1561 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+1562 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+1563 silly lockFile e6aeabba-bower-registry-client-0-2-3 bower-registry-client@0.2.3
+1564 silly lockFile e6aeabba-bower-registry-client-0-2-3 bower-registry-client@0.2.3
+1565 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+1566 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+1567 http 304 https://registry.npmjs.org/decompress-zip
+1568 silly registry.get cb [ 304,
+1568 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1568 silly registry.get     server: 'Apache',
+1568 silly registry.get     via: '1.1 varnish',
+1568 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1568 silly registry.get     'cache-control': 'max-age=60',
+1568 silly registry.get     etag: '"28YQPGMUU4954JVWJRPU9J3SS"',
+1568 silly registry.get     age: '0',
+1568 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+1568 silly registry.get     'x-cache': 'HIT',
+1568 silly registry.get     'x-cache-hits': '1',
+1568 silly registry.get     'x-timer': 'S1422240688.297304,VS0,VE33',
+1568 silly registry.get     vary: 'Accept',
+1568 silly registry.get     'content-length': '0',
+1568 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1568 silly registry.get     connection: 'Keep-Alive' } ]
+1569 verbose etag decompress-zip from cache
+1570 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+1571 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+1572 http 304 https://registry.npmjs.org/bower-config
+1573 silly registry.get cb [ 304,
+1573 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1573 silly registry.get     server: 'Apache',
+1573 silly registry.get     via: '1.1 varnish',
+1573 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1573 silly registry.get     'cache-control': 'max-age=60',
+1573 silly registry.get     etag: '"2QJL67DCUJ995J0GU9GQPGGH2"',
+1573 silly registry.get     age: '0',
+1573 silly registry.get     'x-served-by': 'cache-ord1734-ORD',
+1573 silly registry.get     'x-cache': 'HIT',
+1573 silly registry.get     'x-cache-hits': '1',
+1573 silly registry.get     'x-timer': 'S1422240688.070778,VS0,VE268',
+1573 silly registry.get     vary: 'Accept',
+1573 silly registry.get     'content-length': '0',
+1573 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1573 silly registry.get     connection: 'Keep-Alive' } ]
+1574 verbose etag bower-config from cache
+1575 http 304 https://registry.npmjs.org/bower-endpoint-parser
+1576 silly registry.get cb [ 304,
+1576 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1576 silly registry.get     server: 'Apache',
+1576 silly registry.get     via: '1.1 varnish',
+1576 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1576 silly registry.get     'cache-control': 'max-age=60',
+1576 silly registry.get     etag: '"464O9XBNZ7DHQI9FJ990JZ4YO"',
+1576 silly registry.get     age: '0',
+1576 silly registry.get     'x-served-by': 'cache-ord1730-ORD',
+1576 silly registry.get     'x-cache': 'HIT',
+1576 silly registry.get     'x-cache-hits': '1',
+1576 silly registry.get     'x-timer': 'S1422240688.070822,VS0,VE269',
+1576 silly registry.get     vary: 'Accept',
+1576 silly registry.get     'content-length': '0',
+1576 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1576 silly registry.get     connection: 'Keep-Alive' } ]
+1577 verbose etag bower-endpoint-parser from cache
+1578 silly addNameRange number 2 { name: 'bower-config',
+1578 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+1578 silly addNameRange   hasData: true }
+1579 silly addNameRange versions [ 'bower-config',
+1579 silly addNameRange   [ '0.1.0-rc.1',
+1579 silly addNameRange     '0.1.0-rc.2',
+1579 silly addNameRange     '0.1.0-rc.3',
+1579 silly addNameRange     '0.1.0-rc.4',
+1579 silly addNameRange     '0.1.0-rc.5',
+1579 silly addNameRange     '0.2.0-rc.1',
+1579 silly addNameRange     '0.2.0-rc.2',
+1579 silly addNameRange     '0.3.0',
+1579 silly addNameRange     '0.3.1',
+1579 silly addNameRange     '0.3.3',
+1579 silly addNameRange     '0.3.4',
+1579 silly addNameRange     '0.3.5',
+1579 silly addNameRange     '0.4.0',
+1579 silly addNameRange     '0.4.1',
+1579 silly addNameRange     '0.4.2',
+1579 silly addNameRange     '0.4.3',
+1579 silly addNameRange     '0.4.4',
+1579 silly addNameRange     '0.4.5',
+1579 silly addNameRange     '0.5.0',
+1579 silly addNameRange     '0.5.1',
+1579 silly addNameRange     '0.5.2' ] ]
+1580 verbose addNamed [ 'bower-config', '0.5.2' ]
+1581 verbose addNamed [ '0.5.2', '0.5.2' ]
+1582 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+1583 verbose lock bower-config@0.5.2 /Users/JIECHEN/.npm/c7a59e04-bower-config-0-5-2.lock
+1584 silly addNameRange number 2 { name: 'bower-endpoint-parser',
+1584 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+1584 silly addNameRange   hasData: true }
+1585 silly addNameRange versions [ 'bower-endpoint-parser',
+1585 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+1586 verbose addNamed [ 'bower-endpoint-parser', '0.2.2' ]
+1587 verbose addNamed [ '0.2.2', '0.2.2' ]
+1588 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+1589 verbose lock bower-endpoint-parser@0.2.2 /Users/JIECHEN/.npm/b3d72336-bower-endpoint-parser-0-2-2.lock
+1590 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+1591 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+1592 silly lockFile 6ec0f64b-bower-config-0-5-2 bower-config@~0.5.2
+1593 silly lockFile 6ec0f64b-bower-config-0-5-2 bower-config@~0.5.2
+1594 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+1595 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+1596 silly lockFile c23e4b02-bower-endpoint-parser-0-2-2 bower-endpoint-parser@~0.2.2
+1597 silly lockFile c23e4b02-bower-endpoint-parser-0-2-2 bower-endpoint-parser@~0.2.2
+1598 http 304 https://registry.npmjs.org/fstream
+1599 silly registry.get cb [ 304,
+1599 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1599 silly registry.get     server: 'Apache',
+1599 silly registry.get     via: '1.1 varnish',
+1599 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:27 GMT',
+1599 silly registry.get     'cache-control': 'max-age=60',
+1599 silly registry.get     etag: '"DFZ7AD3NINH7BALDAWIIYD09E"',
+1599 silly registry.get     age: '2',
+1599 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+1599 silly registry.get     'x-cache': 'HIT',
+1599 silly registry.get     'x-cache-hits': '2',
+1599 silly registry.get     'x-timer': 'S1422240688.376037,VS0,VE0',
+1599 silly registry.get     vary: 'Accept',
+1599 silly registry.get     'content-length': '0',
+1599 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1599 silly registry.get     connection: 'Keep-Alive' } ]
+1600 verbose etag fstream from cache
+1601 http 304 https://registry.npmjs.org/graceful-fs
+1602 silly registry.get cb [ 304,
+1602 silly registry.get   { date: 'Mon, 26 Jan 2015 02:51:28 GMT',
+1602 silly registry.get     server: 'Apache',
+1602 silly registry.get     via: '1.1 varnish',
+1602 silly registry.get     'last-modified': 'Mon, 26 Jan 2015 02:51:28 GMT',
+1602 silly registry.get     'cache-control': 'max-age=60',
+1602 silly registry.get     etag: '"C0TX2E25T8F2EMHT7F67GZHZ0"',
+1602 silly registry.get     age: '31',
+1602 silly registry.get     'x-served-by': 'cache-ord1730-ORD',
+1602 silly registry.get     'x-cache': 'HIT',
+1602 silly registry.get     'x-cache-hits': '1',
+1602 silly registry.get     'x-timer': 'S1422240688.375756,VS0,VE0',
+1602 silly registry.get     vary: 'Accept',
+1602 silly registry.get     'content-length': '0',
+1602 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1602 silly registry.get     connection: 'Keep-Alive' } ]
+1603 verbose etag graceful-fs from cache
+1604 silly addNameRange number 2 { name: 'fstream', range: '>=1.0.2-0 <1.1.0-0', hasData: true }
+1605 silly addNameRange versions [ 'fstream',
+1605 silly addNameRange   [ '0.0.0',
+1605 silly addNameRange     '0.0.1',
+1605 silly addNameRange     '0.1.0',
+1605 silly addNameRange     '0.1.1',
+1605 silly addNameRange     '0.1.2',
+1605 silly addNameRange     '0.1.3',
+1605 silly addNameRange     '0.1.5',
+1605 silly addNameRange     '0.1.6',
+1605 silly addNameRange     '0.1.7',
+1605 silly addNameRange     '0.1.8',
+1605 silly addNameRange     '0.1.9',
+1605 silly addNameRange     '0.1.10',
+1605 silly addNameRange     '0.1.11',
+1605 silly addNameRange     '0.1.12',
+1605 silly addNameRange     '0.1.13',
+1605 silly addNameRange     '0.1.14',
+1605 silly addNameRange     '0.1.15',
+1605 silly addNameRange     '0.1.16',
+1605 silly addNameRange     '0.1.17',
+1605 silly addNameRange     '0.1.18',
+1605 silly addNameRange     '0.1.19',
+1605 silly addNameRange     '0.1.20',
+1605 silly addNameRange     '0.1.21',
+1605 silly addNameRange     '0.1.22',
+1605 silly addNameRange     '0.1.23',
+1605 silly addNameRange     '0.1.24',
+1605 silly addNameRange     '0.1.25',
+1605 silly addNameRange     '0.1.26',
+1605 silly addNameRange     '0.1.27',
+1605 silly addNameRange     '0.1.28',
+1605 silly addNameRange     '0.1.29',
+1605 silly addNameRange     '0.1.30',
+1605 silly addNameRange     '1.0.0',
+1605 silly addNameRange     '1.0.1',
+1605 silly addNameRange     '0.1.31',
+1605 silly addNameRange     '1.0.2',
+1605 silly addNameRange     '1.0.3',
+1605 silly addNameRange     '1.0.4' ] ]
+1606 verbose addNamed [ 'fstream', '1.0.4' ]
+1607 verbose addNamed [ '1.0.4', '1.0.4' ]
+1608 silly lockFile ede035e6-fstream-1-0-4 fstream@1.0.4
+1609 verbose lock fstream@1.0.4 /Users/JIECHEN/.npm/ede035e6-fstream-1-0-4.lock
+1610 silly addNameRange number 2 { name: 'graceful-fs',
+1610 silly addNameRange   range: '>=3.0.1-0 <3.1.0-0',
+1610 silly addNameRange   hasData: true }
+1611 silly addNameRange versions [ 'graceful-fs',
+1611 silly addNameRange   [ '1.0.0',
+1611 silly addNameRange     '1.0.1',
+1611 silly addNameRange     '1.0.2',
+1611 silly addNameRange     '1.1.0',
+1611 silly addNameRange     '1.1.1',
+1611 silly addNameRange     '1.1.2',
+1611 silly addNameRange     '1.1.3',
+1611 silly addNameRange     '1.1.4',
+1611 silly addNameRange     '1.1.5',
+1611 silly addNameRange     '1.1.6',
+1611 silly addNameRange     '1.1.7',
+1611 silly addNameRange     '1.1.8',
+1611 silly addNameRange     '1.1.9',
+1611 silly addNameRange     '1.1.10',
+1611 silly addNameRange     '1.1.11',
+1611 silly addNameRange     '1.1.12',
+1611 silly addNameRange     '1.1.13',
+1611 silly addNameRange     '1.1.14',
+1611 silly addNameRange     '1.2.0',
+1611 silly addNameRange     '1.2.1',
+1611 silly addNameRange     '1.2.2',
+1611 silly addNameRange     '1.2.3',
+1611 silly addNameRange     '2.0.0',
+1611 silly addNameRange     '2.0.1',
+1611 silly addNameRange     '2.0.2',
+1611 silly addNameRange     '2.0.3',
+1611 silly addNameRange     '3.0.0',
+1611 silly addNameRange     '3.0.1',
+1611 silly addNameRange     '3.0.2',
+1611 silly addNameRange     '3.0.3',
+1611 silly addNameRange     '3.0.4',
+1611 silly addNameRange     '3.0.5' ] ]
+1612 verbose addNamed [ 'graceful-fs', '3.0.5' ]
+1613 verbose addNamed [ '3.0.5', '3.0.5' ]
+1614 silly lockFile cf3f6b1e-graceful-fs-3-0-5 graceful-fs@3.0.5
+1615 verbose lock graceful-fs@3.0.5 /Users/JIECHEN/.npm/cf3f6b1e-graceful-fs-3-0-5.lock
+1616 silly lockFile ede035e6-fstream-1-0-4 fstream@1.0.4
+1617 silly lockFile ede035e6-fstream-1-0-4 fstream@1.0.4
+1618 silly lockFile bada8ba0-fstream-1-0-2 fstream@~1.0.2
+1619 silly lockFile bada8ba0-fstream-1-0-2 fstream@~1.0.2
+1620 silly lockFile cf3f6b1e-graceful-fs-3-0-5 graceful-fs@3.0.5
+1621 silly lockFile cf3f6b1e-graceful-fs-3-0-5 graceful-fs@3.0.5
+1622 silly lockFile 901920ca-graceful-fs-3-0-1 graceful-fs@~3.0.1
+1623 silly lockFile 901920ca-graceful-fs-3-0-1 graceful-fs@~3.0.1
+1624 verbose about to build /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower
+1625 info /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/bower unbuild
+1626 info preuninstall bower@1.3.12
+1627 info uninstall bower@1.3.12
+1628 verbose true,/Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules,/Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules unbuild bower@1.3.12
+1629 verbose /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth/node_modules/.bin,[object Object] binRoot
+1630 info postuninstall bower@1.3.12
+1631 error Error: EACCES, open '/Users/JIECHEN/.npm/fstream/1.0.4/package/package.json'
+1631 error  { [Error: EACCES, open '/Users/JIECHEN/.npm/fstream/1.0.4/package/package.json']
+1631 error   errno: 3,
+1631 error   code: 'EACCES',
+1631 error   path: '/Users/JIECHEN/.npm/fstream/1.0.4/package/package.json',
+1631 error   parent: 'bower' }
+1632 error Please try running this command again as root/Administrator.
+1633 error System Darwin 14.0.0
+1634 error command "node" "/usr/local/bin/npm" "install"
+1635 error cwd /Users/JIECHEN/myhealthWorkSpace/myhealth/myhealth
+1636 error node -v v0.10.29
+1637 error npm -v 1.4.14
+1638 error path /Users/JIECHEN/.npm/fstream/1.0.4/package/package.json
+1639 error code EACCES
+1640 error errno 3
+1641 error stack Error: EACCES, open '/Users/JIECHEN/.npm/fstream/1.0.4/package/package.json'
+1642 verbose exit [ 3, true ]
